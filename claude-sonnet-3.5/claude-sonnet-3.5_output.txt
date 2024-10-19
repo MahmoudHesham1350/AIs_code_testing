@@ -1,0 +1,1900 @@
+Test Case 1
+p1: -9x^10 + -4x^9 + -14x^8 + -3x^7 + 2x^6 + 12x^5 + 5x^4 + 1x^3 + -13x^2 + -5x + -7
+p2: 9x^9 + -8x^8 + 12x^7 + 12x^6 + -4x^5 + -12x^4 + -3x^3 + 7x^2 + -1x + -10
+p1 + p2: -9x^10 + 5x^9 + -22x^8 + 9x^7 + 14x^6 + 8x^5 + -7x^4 + -2x^3 + -6x^2 + -6x + -17
+p1 - p2: -9x^10 + -13x^9 + -6x^8 + -15x^7 + -10x^6 + 16x^5 + 17x^4 + 4x^3 + -20x^2 + -4x + 3
+p1 * p2: -81x^19 + 36x^18 + -202x^17 + -71x^16 + -138x^15 + 12x^14 + 68x^13 + 266x^12 + 130x^11 + 64x^10 + -304x^9 + -103x^8 + -7x^7 + 92x^6 + 9x^5 + -43x^4 + -11x^3 + 86x^2 + 57x + 70
+
+p1 evaluated at x = 2.5: -122512
+p2 evaluated at x = 2.5: 31504.2
+
+Derivative of p1: -90x^9 + -36x^8 + -112x^7 + -21x^6 + 12x^5 + 60x^4 + 20x^3 + 3x^2 + -26x + -5
+Derivative of p2: 81x^8 + -64x^7 + 84x^6 + 72x^5 + -20x^4 + -48x^3 + -9x^2 + 14x + -1
+
+Integral of p1: -0.818182x^11 + -0.4x^10 + -1.55556x^9 + -0.375x^8 + 0.285714x^7 + 2x^6 + 1x^5 + 0.25x^4 + -4.33333x^3 + -2.5x^2 + -7x + 
+Integral of p2: 0.9x^10 + -0.888889x^9 + 1.5x^8 + 1.71429x^7 + -0.666667x^6 + -2.4x^5 + -0.75x^4 + 2.33333x^3 + -0.5x^2 + -10x + 
+
+Definite integral of p1 from 0 to 1: -13.4464
+Definite integral of p2 from 0 to 1: -8.75794
+
+Test Case 2
+p1: -8x^8 + -13x^7 + 1x^5 + 4x^4 + -4x^3 + 6x^2 + -2x + 6
+p2: 15x^5 + 11x^4 + 9x^3 + -5x^2 + 9x + -6
+p1 + p2: -8x^8 + -13x^7 + 16x^5 + 15x^4 + 5x^3 + 1x^2 + 7x + 
+p1 - p2: -8x^8 + -13x^7 + -14x^5 + -7x^4 + -13x^3 + 11x^2 + -11x + 12
+p1 * p2: -120x^13 + -283x^12 + -215x^11 + -62x^10 + 64x^9 + -76x^8 + 155x^7 + -11x^6 + 172x^5 + -42x^4 + 142x^3 + -84x^2 + 66x + -36
+
+p1 evaluated at x = 2.5: -19911.7
+p2 evaluated at x = 2.5: 2020.41
+
+Derivative of p1: -64x^7 + -91x^6 + 5x^4 + 16x^3 + -12x^2 + 12x + -2
+Derivative of p2: 75x^4 + 44x^3 + 27x^2 + -10x + 9
+
+Integral of p1: -0.888889x^9 + -1.625x^8 + 0.166667x^6 + 0.8x^5 + -1x^4 + 2x^3 + -1x^2 + 6x + 
+Integral of p2: 2.5x^6 + 2.2x^5 + 2.25x^4 + -1.66667x^3 + 4.5x^2 + -6x + 
+
+Definite integral of p1 from 0 to 1: 4.45278
+Definite integral of p2 from 0 to 1: 3.78333
+
+Test Case 3
+p1: 8x^3 + -8x^2 + 13x + -7
+p2: -6x^7 + -5x^6 + 14x^5 + -4x^3 + 1x^2 + -2x + 15
+p1 + p2: -6x^7 + -5x^6 + 14x^5 + 4x^3 + -7x^2 + 11x + 8
+p1 - p2: 6x^7 + 5x^6 + -14x^5 + 12x^3 + -9x^2 + 15x + -22
+p1 * p2: -48x^10 + 8x^9 + 74x^8 + -135x^7 + 185x^6 + -58x^5 + -76x^4 + 177x^3 + -153x^2 + 209x + -105
+
+p1 evaluated at x = 2.5: 100.5
+p2 evaluated at x = 2.5: -3561.88
+
+Derivative of p1: 24x^2 + -16x + 13
+Derivative of p2: -42x^6 + -30x^5 + 70x^4 + -12x^2 + 2x + -2
+
+Integral of p1: 2x^4 + -2.66667x^3 + 6.5x^2 + -7x + 
+Integral of p2: -0.75x^8 + -0.714286x^7 + 2.33333x^6 + -1x^4 + 0.333333x^3 + -1x^2 + 15x + 
+
+Definite integral of p1 from 0 to 1: -1.16667
+Definite integral of p2 from 0 to 1: 14.2024
+
+Test Case 4
+p1: -9x^4 + 5x^3 + 11x^2 + -12x + -10
+p2: 13x^11 + 14x^10 + 1x^9 + 2x^8 + -6x^7 + -5x^5 + 4x^4 + -8x^3 + 5x^2 + -2x + -2
+p1 + p2: 13x^11 + 14x^10 + 1x^9 + 2x^8 + -6x^7 + -5x^5 + -5x^4 + -3x^3 + 16x^2 + -14x + -12
+p1 - p2: -13x^11 + -14x^10 + -1x^9 + -2x^8 + 6x^7 + 5x^5 + -13x^4 + 13x^3 + 6x^2 + -10x + -8
+p1 * p2: -117x^15 + -61x^14 + 204x^13 + -15x^12 + -223x^11 + -160x^10 + -55x^9 + -9x^8 + 97x^7 + 19x^6 + -43x^5 + 119x^4 + -12x^3 + -48x^2 + 44x + 20
+
+p1 evaluated at x = 2.5: -244.688
+p2 evaluated at x = 2.5: 446230
+
+Derivative of p1: -36x^3 + 15x^2 + 22x + -12
+Derivative of p2: 143x^10 + 140x^9 + 9x^8 + 16x^7 + -42x^6 + -25x^4 + 16x^3 + -24x^2 + 10x + -2
+
+Integral of p1: -1.8x^5 + 1.25x^4 + 3.66667x^3 + -6x^2 + -10x + 
+Integral of p2: 1.08333x^12 + 1.27273x^11 + 0.1x^10 + 0.222222x^9 + -0.75x^8 + -0.833333x^6 + 0.8x^5 + -2x^4 + 1.66667x^3 + -1x^2 + -2x + 
+
+Definite integral of p1 from 0 to 1: -12.8833
+Definite integral of p2 from 0 to 1: -1.43838
+
+Test Case 5
+p1: 8x^9 + -11x^8 + -5x^7 + -8x^6 + 13x^5 + 6x^4 + 5x^3 + -13x^2 + -8x + -3
+p2: -5x^3 + -3x^2 + -2x + -11
+p1 + p2: 8x^9 + -11x^8 + -5x^7 + -8x^6 + 13x^5 + 6x^4 + -16x^2 + -10x + -14
+p1 - p2: 8x^9 + -11x^8 + -5x^7 + -8x^6 + 13x^5 + 6x^4 + 10x^3 + -10x^2 + -6x + 8
+p1 * p2: -40x^12 + 31x^11 + 42x^10 + -11x^9 + 90x^8 + 2x^7 + 19x^6 + -105x^5 + 3x^4 + 10x^3 + 168x^2 + 94x + 33
+
+p1 evaluated at x = 2.5: 10205.8
+p2 evaluated at x = 2.5: -112.875
+
+Derivative of p1: 72x^8 + -88x^7 + -35x^6 + -48x^5 + 65x^4 + 24x^3 + 15x^2 + -26x + -8
+Derivative of p2: -15x^2 + -6x + -2
+
+Integral of p1: 0.8x^10 + -1.22222x^9 + -0.625x^8 + -1.14286x^7 + 2.16667x^6 + 1.2x^5 + 1.25x^4 + -4.33333x^3 + -4x^2 + -3x + 
+Integral of p2: -1.25x^4 + -1x^3 + -1x^2 + -11x + 
+
+Definite integral of p1 from 0 to 1: -8.90675
+Definite integral of p2 from 0 to 1: -14.25
+
+Test Case 6
+p1: -11
+p2: 2x^4 + 15x^3 + -1x^2 + -12x + 2
+p1 + p2: 2x^4 + 15x^3 + -1x^2 + -12x + -9
+p1 - p2: -2x^4 + -15x^3 + 1x^2 + 12x + -13
+p1 * p2: -22x^4 + -165x^3 + 11x^2 + 132x + -22
+
+p1 evaluated at x = 2.5: -11
+p2 evaluated at x = 2.5: 278.25
+
+Derivative of p1: 
+Derivative of p2: 8x^3 + 45x^2 + -2x + -12
+
+Integral of p1: -11x + 
+Integral of p2: 0.4x^5 + 3.75x^4 + -0.333333x^3 + -6x^2 + 2x + 
+
+Definite integral of p1 from 0 to 1: -11
+Definite integral of p2 from 0 to 1: -0.183333
+
+Test Case 7
+p1: -3x^9 + -3x^8 + -1x^7 + 10x^6 + 12x^5 + 13x^4 + -4x^3 + -6x^2 + 4x + 
+p2: -6x^2 + 3x + 8
+p1 + p2: -3x^9 + -3x^8 + -1x^7 + 10x^6 + 12x^5 + 13x^4 + -4x^3 + -12x^2 + 7x + 8
+p1 - p2: -3x^9 + -3x^8 + -1x^7 + 10x^6 + 12x^5 + 13x^4 + -4x^3 + 1x + -8
+p1 * p2: 18x^11 + 9x^10 + -27x^9 + -87x^8 + -50x^7 + 38x^6 + 159x^5 + 128x^4 + -74x^3 + -36x^2 + 32x + 
+
+p1 evaluated at x = 2.5: -12601
+p2 evaluated at x = 2.5: -22
+
+Derivative of p1: -27x^8 + -24x^7 + -7x^6 + 60x^5 + 60x^4 + 52x^3 + -12x^2 + -12x + 4
+Derivative of p2: -12x + 3
+
+Integral of p1: -0.3x^10 + -0.333333x^9 + -0.125x^8 + 1.42857x^7 + 2x^6 + 2.6x^5 + -1x^4 + -2x^3 + 2x^2 + 
+Integral of p2: -2x^3 + 1.5x^2 + 8x + 
+
+Definite integral of p1 from 0 to 1: 4.27024
+Definite integral of p2 from 0 to 1: 7.5
+
+Test Case 8
+p1: -4x^9 + -13x^8 + 5x^7 + -14x^6 + -13x^5 + 11x^4 + -5x^3 + -14x^2 + -4x + -3
+p2: -9x^10 + 1x^9 + 11x^8 + 15x^7 + -12x^6 + -10x^5 + 12x^4 + -11x^3 + 9x^2 + -12x + 8
+p1 + p2: -9x^10 + -3x^9 + -2x^8 + 20x^7 + -26x^6 + -23x^5 + 23x^4 + -16x^3 + -5x^2 + -16x + 5
+p1 - p2: 9x^10 + -5x^9 + -24x^8 + -10x^7 + -2x^6 + -3x^5 + -1x^4 + 6x^3 + -23x^2 + 8x + -11
+p1 * p2: 36x^19 + 113x^18 + -102x^17 + -72x^16 + 11x^15 + 5x^14 + -275x^13 + 53x^12 + 595x^11 + -500x^10 + -140x^9 + 110x^8 + 53x^7 + 106x^6 + -145x^5 + 30x^4 + 125x^3 + -91x^2 + 4x + -24
+
+p1 evaluated at x = 2.5: -36479.9
+p2 evaluated at x = 2.5: -59651.2
+
+Derivative of p1: -36x^8 + -104x^7 + 35x^6 + -84x^5 + -65x^4 + 44x^3 + -15x^2 + -28x + -4
+Derivative of p2: -90x^9 + 9x^8 + 88x^7 + 105x^6 + -72x^5 + -50x^4 + 48x^3 + -33x^2 + 18x + -12
+
+Integral of p1: -0.4x^10 + -1.44444x^9 + 0.625x^8 + -2x^7 + -2.16667x^6 + 2.2x^5 + -1.25x^4 + -4.66667x^3 + -2x^2 + -3x + 
+Integral of p2: -0.818182x^11 + 0.1x^10 + 1.22222x^9 + 1.875x^8 + -1.71429x^7 + -1.66667x^6 + 2.4x^5 + -2.75x^4 + 3x^3 + -6x^2 + 8x + 
+
+Definite integral of p1 from 0 to 1: -14.1028
+Definite integral of p2 from 0 to 1: 3.64809
+
+Test Case 9
+p1: -3x^10 + 9x^9 + 9x^8 + 8x^7 + 8x^6 + 11x^5 + 13x^4 + 12x^3 + 8x^2 + -7x + 7
+p2: 4x^6 + -10x^5 + 2x^4 + -8x^3 + -10x^2 + -12x + 14
+p1 + p2: -3x^10 + 9x^9 + 9x^8 + 8x^7 + 12x^6 + 1x^5 + 15x^4 + 4x^3 + -2x^2 + -19x + 21
+p1 - p2: -3x^10 + 9x^9 + 9x^8 + 8x^7 + 4x^6 + 21x^5 + 11x^4 + 20x^3 + 18x^2 + 5x + -7
+p1 * p2: -12x^16 + 66x^15 + -60x^14 + -16x^13 + -72x^12 + -146x^11 + -346x^10 + -186x^9 + -200x^8 + -282x^7 + -132x^6 + -270x^5 + 28x^4 + 86x^3 + 126x^2 + -182x + 98
+
+p1 evaluated at x = 2.5: 28099.9
+p2 evaluated at x = 2.5: -125.375
+
+Derivative of p1: -30x^9 + 81x^8 + 72x^7 + 56x^6 + 48x^5 + 55x^4 + 52x^3 + 36x^2 + 16x + -7
+Derivative of p2: 24x^5 + -50x^4 + 8x^3 + -24x^2 + -20x + -12
+
+Integral of p1: -0.272727x^11 + 0.9x^10 + 1x^9 + 1x^8 + 1.14286x^7 + 1.83333x^6 + 2.6x^5 + 3x^4 + 2.66667x^3 + -3.5x^2 + 7x + 
+Integral of p2: 0.571429x^7 + -1.66667x^6 + 0.4x^5 + -2x^4 + -3.33333x^3 + -6x^2 + 14x + 
+
+Definite integral of p1 from 0 to 1: 17.3701
+Definite integral of p2 from 0 to 1: 1.97143
+
+Test Case 10
+p1: 2x^5 + -10x^4 + -1x^3 + 2x^2 + -6x + 10
+p2: 5x^9 + -5x^8 + 13x^7 + 9x^6 + 5x^5 + -5x^4 + 13x^3 + 12x^2 + 14x + 12
+p1 + p2: 5x^9 + -5x^8 + 13x^7 + 9x^6 + 7x^5 + -15x^4 + 12x^3 + 14x^2 + 8x + 22
+p1 - p2: -5x^9 + 5x^8 + -13x^7 + -9x^6 + -3x^5 + -5x^4 + -14x^3 + -10x^2 + -20x + -2
+p1 * p2: 10x^14 + -60x^13 + 71x^12 + -97x^11 + -133x^10 + 37x^9 + -39x^8 + -15x^7 + -55x^6 + -22x^5 + -238x^4 + 74x^3 + 60x^2 + 68x + 120
+
+p1 evaluated at x = 2.5: -203.438
+p2 evaluated at x = 2.5: 22194
+
+Derivative of p1: 10x^4 + -40x^3 + -3x^2 + 4x + -6
+Derivative of p2: 45x^8 + -40x^7 + 91x^6 + 54x^5 + 25x^4 + -20x^3 + 39x^2 + 24x + 14
+
+Integral of p1: 0.333333x^6 + -2x^5 + -0.25x^4 + 0.666667x^3 + -3x^2 + 10x + 
+Integral of p2: 0.5x^10 + -0.555556x^9 + 1.625x^8 + 1.28571x^7 + 0.833333x^6 + -1x^5 + 3.25x^4 + 4x^3 + 7x^2 + 12x + 
+
+Definite integral of p1 from 0 to 1: 5.75
+Definite integral of p2 from 0 to 1: 28.9385
+
+Test Case 11
+p1: 5x^9 + -14x^8 + -10x^7 + 2x^6 + -12x^5 + -10x^4 + 9x^3 + -2x^2 + -2x + 2
+p2: 4x^7 + 1x^6 + -2x^5 + -8x^4 + 4x^3 + -12x^2 + 6
+p1 + p2: 5x^9 + -14x^8 + -6x^7 + 3x^6 + -14x^5 + -18x^4 + 13x^3 + -14x^2 + -2x + 8
+p1 - p2: 5x^9 + -14x^8 + -14x^7 + 1x^6 + -10x^5 + -2x^4 + 5x^3 + 10x^2 + -2x + -4
+p1 * p2: 20x^16 + -51x^15 + -64x^14 + -14x^13 + 106x^12 + -92x^11 + 162x^10 + 275x^9 + -104x^8 + -18x^7 + 190x^6 + -176x^5 + -60x^4 + 86x^3 + -36x^2 + -12x + 12
+
+p1 evaluated at x = 2.5: -9341.43
+p2 evaluated at x = 2.5: 2171.23
+
+Derivative of p1: 45x^8 + -112x^7 + -70x^6 + 12x^5 + -60x^4 + -40x^3 + 27x^2 + -4x + -2
+Derivative of p2: 28x^6 + 6x^5 + -10x^4 + -32x^3 + 12x^2 + -24x + 
+
+Integral of p1: 0.5x^10 + -1.55556x^9 + -1.25x^8 + 0.285714x^7 + -2x^6 + -2x^5 + 2.25x^4 + -0.666667x^3 + -1x^2 + 2x + 
+Integral of p2: 0.5x^8 + 0.142857x^7 + -0.333333x^6 + -1.6x^5 + 1x^4 + -4x^3 + 6x + 
+
+Definite integral of p1 from 0 to 1: -3.43651
+Definite integral of p2 from 0 to 1: 1.70952
+
+Test Case 12
+p1: 12x^11 + 6x^10 + 4x^9 + 3x^8 + -6x^7 + -13x^6 + 15x^4 + -13x^3 + 8x^2 + 11x + 11
+p2: -13x^3 + 9x^2 + -2x + -7
+p1 + p2: 12x^11 + 6x^10 + 4x^9 + 3x^8 + -6x^7 + -13x^6 + 15x^4 + -26x^3 + 17x^2 + 9x + 4
+p1 - p2: 12x^11 + 6x^10 + 4x^9 + 3x^8 + -6x^7 + -13x^6 + 15x^4 + -1x^2 + 13x + 18
+p1 * p2: -156x^14 + 30x^13 + -22x^12 + -99x^11 + 55x^10 + 81x^9 + -126x^8 + -127x^7 + 395x^6 + -251x^5 + -150x^4 + 31x^3 + 21x^2 + -99x + -77
+
+p1 evaluated at x = 2.5: 356795
+p2 evaluated at x = 2.5: -158.875
+
+Derivative of p1: 132x^10 + 60x^9 + 36x^8 + 24x^7 + -42x^6 + -78x^5 + 60x^3 + -39x^2 + 16x + 11
+Derivative of p2: -39x^2 + 18x + -2
+
+Integral of p1: 1x^12 + 0.545455x^11 + 0.4x^10 + 0.333333x^9 + -0.75x^8 + -1.85714x^7 + 3x^5 + -3.25x^4 + 2.66667x^3 + 5.5x^2 + 11x + 
+Integral of p2: -3.25x^4 + 3x^3 + -1x^2 + -7x + 
+
+Definite integral of p1 from 0 to 1: 18.5883
+Definite integral of p2 from 0 to 1: -8.25
+
+Test Case 13
+p1: 10x^10 + -4x^9 + -14x^8 + -3x^7 + -8x^6 + 15x^5 + 2x^4 + 10x^3 + 13x^2 + -7x + 5
+p2: -7x^9 + -2x^8 + 6x^7 + 12x^6 + -8x^5 + 4x^4 + -14x^3 + 11x^2 + 3x + 11
+p1 + p2: 10x^10 + -11x^9 + -16x^8 + 3x^7 + 4x^6 + 7x^5 + 6x^4 + -4x^3 + 24x^2 + -4x + 16
+p1 - p2: 10x^10 + 3x^9 + -12x^8 + -9x^7 + -20x^6 + 23x^5 + -2x^4 + 24x^3 + 2x^2 + -10x + -6
+p1 * p2: -70x^19 + 8x^18 + 166x^17 + 145x^16 + -150x^15 + -203x^14 + -172x^13 + 54x^12 + 315x^11 + -59x^10 + 214x^9 + -429x^8 + -38x^7 + 7x^6 + 31x^5 + 313x^4 + 2x^3 + 177x^2 + -62x + 55
+
+p1 evaluated at x = 2.5: 56730.1
+p2 evaluated at x = 2.5: -23919.3
+
+Derivative of p1: 100x^9 + -36x^8 + -112x^7 + -21x^6 + -48x^5 + 75x^4 + 8x^3 + 30x^2 + 26x + -7
+Derivative of p2: -63x^8 + -16x^7 + 42x^6 + 72x^5 + -40x^4 + 16x^3 + -42x^2 + 22x + 3
+
+Integral of p1: 0.909091x^11 + -0.4x^10 + -1.55556x^9 + -0.375x^8 + -1.14286x^7 + 2.5x^6 + 0.4x^5 + 2.5x^4 + 4.33333x^3 + -3.5x^2 + 5x + 
+Integral of p2: -0.7x^10 + -0.222222x^9 + 0.75x^8 + 1.71429x^7 + -1.33333x^6 + 0.8x^5 + -3.5x^4 + 3.66667x^3 + 1.5x^2 + 11x + 
+
+Definite integral of p1 from 0 to 1: 8.66901
+Definite integral of p2 from 0 to 1: 13.6754
+
+Test Case 14
+p1: -12x^5 + 3x^4 + -4x^3 + -14x^2 + -6x + 9
+p2: 15x^11 + -13x^10 + 12x^9 + 7x^8 + 2x^7 + 12x^6 + -3x^5 + 6x^4 + 5x^3 + 1x^2 + 1x + 2
+p1 + p2: 15x^11 + -13x^10 + 12x^9 + 7x^8 + 2x^7 + 12x^6 + -15x^5 + 9x^4 + 1x^3 + -13x^2 + -5x + 11
+p1 - p2: -15x^11 + 13x^10 + -12x^9 + -7x^8 + -2x^7 + -12x^6 + -9x^5 + -3x^4 + -9x^3 + -15x^2 + -7x + 7
+p1 * p2: -180x^16 + 201x^15 + -243x^14 + -206x^13 + 41x^12 + -121x^11 + -223x^10 + -91x^9 + -147x^8 + -33x^7 + 13x^6 + -158x^5 + 12x^4 + 17x^3 + -25x^2 + -3x + 18
+
+p1 evaluated at x = 2.5: -1210.69
+p2 evaluated at x = 2.5: 294288
+
+Derivative of p1: -60x^4 + 12x^3 + -12x^2 + -28x + -6
+Derivative of p2: 165x^10 + -130x^9 + 108x^8 + 56x^7 + 14x^6 + 72x^5 + -15x^4 + 24x^3 + 15x^2 + 2x + 1
+
+Integral of p1: -2x^6 + 0.6x^5 + -1x^4 + -4.66667x^3 + -3x^2 + 9x + 
+Integral of p2: 1.25x^12 + -1.18182x^11 + 1.2x^10 + 0.777778x^9 + 0.25x^8 + 1.71429x^7 + -0.5x^6 + 1.2x^5 + 1.25x^4 + 0.333333x^3 + 0.5x^2 + 2x + 
+
+Definite integral of p1 from 0 to 1: -1.06667
+Definite integral of p2 from 0 to 1: 8.79358
+
+Test Case 15
+p1: 5x^7 + 11x^6 + -3x^5 + 6x^4 + -5x^3 + -8x^2 + -4x + 9
+p2: 1x^7 + -5x^6 + 6x^5 + 2x^4 + 4x^3 + -5x^2 + -5x + 4
+p1 + p2: 6x^7 + 6x^6 + 3x^5 + 8x^4 + -1x^3 + -13x^2 + -9x + 13
+p1 - p2: 4x^7 + 16x^6 + -9x^5 + 4x^4 + -9x^3 + -3x^2 + 1x + 5
+p1 * p2: 5x^14 + -14x^13 + -28x^12 + 97x^11 + -11x^10 + 66x^9 + -74x^8 + -25x^7 + -76x^6 + -3x^5 + 91x^4 + 76x^3 + -57x^2 + -61x + 36
+
+p1 evaluated at x = 2.5: 5549.59
+p2 evaluated at x = 2.5: 76.4609
+
+Derivative of p1: 35x^6 + 66x^5 + -15x^4 + 24x^3 + -15x^2 + -16x + -4
+Derivative of p2: 7x^6 + -30x^5 + 30x^4 + 8x^3 + 12x^2 + -10x + -5
+
+Integral of p1: 0.625x^8 + 1.57143x^7 + -0.5x^6 + 1.2x^5 + -1.25x^4 + -2.66667x^3 + -2x^2 + 9x + 
+Integral of p2: 0.125x^8 + -0.714286x^7 + 1x^6 + 0.4x^5 + 1x^4 + -1.66667x^3 + -2.5x^2 + 4x + 
+
+Definite integral of p1 from 0 to 1: 5.97976
+Definite integral of p2 from 0 to 1: 1.64405
+
+Test Case 16
+p1: -1x^2 + 2x + 14
+p2: -6x^10 + -7x^9 + -13x^8 + 10x^7 + 11x^6 + -13x^5 + 10x^4 + -2x^3 + -7x^2 + 11x + -4
+p1 + p2: -6x^10 + -7x^9 + -13x^8 + 10x^7 + 11x^6 + -13x^5 + 10x^4 + -2x^3 + -8x^2 + 13x + 10
+p1 - p2: 6x^10 + 7x^9 + 13x^8 + -10x^7 + -11x^6 + 13x^5 + -10x^4 + 2x^3 + 6x^2 + -9x + 18
+p1 * p2: 6x^12 + -5x^11 + -85x^10 + -134x^9 + -173x^8 + 175x^7 + 118x^6 + -160x^5 + 143x^4 + -53x^3 + -72x^2 + 146x + -56
+
+p1 evaluated at x = 2.5: 12.75
+p2 evaluated at x = 2.5: -95901.1
+
+Derivative of p1: -2x + 2
+Derivative of p2: -60x^9 + -63x^8 + -104x^7 + 70x^6 + 66x^5 + -65x^4 + 40x^3 + -6x^2 + -14x + 11
+
+Integral of p1: -0.333333x^3 + 1x^2 + 14x + 
+Integral of p2: -0.545455x^11 + -0.7x^10 + -1.44444x^9 + 1.25x^8 + 1.57143x^7 + -2.16667x^6 + 2x^5 + -0.5x^4 + -2.33333x^3 + 5.5x^2 + -4x + 
+
+Definite integral of p1 from 0 to 1: 14.6667
+Definite integral of p2 from 0 to 1: -1.36847
+
+Test Case 17
+p1: 2x^9 + -8x^8 + 2x^7 + 4x^5 + -1x^4 + -1x^3 + 6x^2 + -1x + -5
+p2: -4x^4 + -5x^3 + 11x^2 + -6x + -2
+p1 + p2: 2x^9 + -8x^8 + 2x^7 + 4x^5 + -5x^4 + -6x^3 + 17x^2 + -7x + -7
+p1 - p2: 2x^9 + -8x^8 + 2x^7 + 4x^5 + 3x^4 + 4x^3 + -5x^2 + 5x + -3
+p1 * p2: -8x^13 + 22x^12 + 54x^11 + -110x^10 + 50x^9 + -12x^8 + 49x^7 + -54x^6 + -39x^5 + 99x^4 + -20x^3 + -61x^2 + 32x + 10
+
+p1 evaluated at x = 2.5: -2991
+p2 evaluated at x = 2.5: -182.625
+
+Derivative of p1: 18x^8 + -64x^7 + 14x^6 + 20x^4 + -4x^3 + -3x^2 + 12x + -1
+Derivative of p2: -16x^3 + -15x^2 + 22x + -6
+
+Integral of p1: 0.2x^10 + -0.888889x^9 + 0.25x^8 + 0.666667x^6 + -0.2x^5 + -0.25x^4 + 2x^3 + -0.5x^2 + -5x + 
+Integral of p2: -0.8x^5 + -1.25x^4 + 3.66667x^3 + -3x^2 + -2x + 
+
+Definite integral of p1 from 0 to 1: -3.72222
+Definite integral of p2 from 0 to 1: -3.38333
+
+Test Case 18
+p1: 11x^10 + 2x^9 + 11x^8 + -1x^7 + -11x^6 + -2x^5 + 8x^4 + -3x^3 + 10x^2 + 12x + 12
+p2: -12x^2 + -6x + -1
+p1 + p2: 11x^10 + 2x^9 + 11x^8 + -1x^7 + -11x^6 + -2x^5 + 8x^4 + -3x^3 + -2x^2 + 6x + 11
+p1 - p2: 11x^10 + 2x^9 + 11x^8 + -1x^7 + -11x^6 + -2x^5 + 8x^4 + -3x^3 + 22x^2 + 18x + 13
+p1 * p2: -132x^12 + -90x^11 + -155x^10 + -56x^9 + 127x^8 + 91x^7 + -73x^6 + -10x^5 + -110x^4 + -201x^3 + -226x^2 + -84x + -12
+
+p1 evaluated at x = 2.5: 126197
+p2 evaluated at x = 2.5: -91
+
+Derivative of p1: 110x^9 + 18x^8 + 88x^7 + -7x^6 + -66x^5 + -10x^4 + 32x^3 + -9x^2 + 20x + 12
+Derivative of p2: -24x + -6
+
+Integral of p1: 1x^11 + 0.2x^10 + 1.22222x^9 + -0.125x^8 + -1.57143x^7 + -0.333333x^6 + 1.6x^5 + -0.75x^4 + 3.33333x^3 + 6x^2 + 12x + 
+Integral of p2: -4x^3 + -3x^2 + -1x + 
+
+Definite integral of p1 from 0 to 1: 22.5758
+Definite integral of p2 from 0 to 1: -8
+
+Test Case 19
+p1: 3x + -8
+p2: -3x^7 + -2x^6 + -8x^5 + -5x^4 + -11x^3 + 1x^2 + -4x + 
+p1 + p2: -3x^7 + -2x^6 + -8x^5 + -5x^4 + -11x^3 + 1x^2 + -1x + -8
+p1 - p2: 3x^7 + 2x^6 + 8x^5 + 5x^4 + 11x^3 + -1x^2 + 7x + -8
+p1 * p2: -9x^8 + 18x^7 + -8x^6 + 49x^5 + 7x^4 + 91x^3 + -20x^2 + 32x + 
+
+p1 evaluated at x = 2.5: -0.5
+p2 evaluated at x = 2.5: -3471.52
+
+Derivative of p1: 3
+Derivative of p2: -21x^6 + -12x^5 + -40x^4 + -20x^3 + -33x^2 + 2x + -4
+
+Integral of p1: 1.5x^2 + -8x + 
+Integral of p2: -0.375x^8 + -0.285714x^7 + -1.33333x^6 + -1x^5 + -2.75x^4 + 0.333333x^3 + -2x^2 + 
+
+Definite integral of p1 from 0 to 1: -6.5
+Definite integral of p2 from 0 to 1: -7.41071
+
+Test Case 20
+p1: 3
+p2: 14x^7 + -8x^6 + 2x^5 + 15x^4 + -13x^3 + 9x^2 + 1x + 11
+p1 + p2: 14x^7 + -8x^6 + 2x^5 + 15x^4 + -13x^3 + 9x^2 + 1x + 14
+p1 - p2: -14x^7 + 8x^6 + -2x^5 + -15x^4 + 13x^3 + -9x^2 + -1x + -8
+p1 * p2: 42x^7 + -24x^6 + 6x^5 + 45x^4 + -39x^3 + 27x^2 + 3x + 33
+
+p1 evaluated at x = 2.5: 3
+p2 evaluated at x = 2.5: 7239.67
+
+Derivative of p1: 
+Derivative of p2: 98x^6 + -48x^5 + 10x^4 + 60x^3 + -39x^2 + 18x + 1
+
+Integral of p1: 3x + 
+Integral of p2: 1.75x^8 + -1.14286x^7 + 0.333333x^6 + 3x^5 + -3.25x^4 + 3x^3 + 0.5x^2 + 11x + 
+
+Definite integral of p1 from 0 to 1: 3
+Definite integral of p2 from 0 to 1: 15.1905
+
+Test Case 21
+p1: 4
+p2: 8x^11 + -4x^10 + -14x^9 + -4x^8 + -11x^7 + -9x^6 + -11x^5 + 6x^4 + 8x^3 + -8x^2 + 8x + -7
+p1 + p2: 8x^11 + -4x^10 + -14x^9 + -4x^8 + -11x^7 + -9x^6 + -11x^5 + 6x^4 + 8x^3 + -8x^2 + 8x + -3
+p1 - p2: -8x^11 + 4x^10 + 14x^9 + 4x^8 + 11x^7 + 9x^6 + 11x^5 + -6x^4 + -8x^3 + 8x^2 + -8x + 11
+p1 * p2: 32x^11 + -16x^10 + -56x^9 + -16x^8 + -44x^7 + -36x^6 + -44x^5 + 24x^4 + 32x^3 + -32x^2 + 32x + -28
+
+p1 evaluated at x = 2.5: 4
+p2 evaluated at x = 2.5: 83415.6
+
+Derivative of p1: 
+Derivative of p2: 88x^10 + -40x^9 + -126x^8 + -32x^7 + -77x^6 + -54x^5 + -55x^4 + 24x^3 + 24x^2 + -16x + 8
+
+Integral of p1: 4x + 
+Integral of p2: 0.666667x^12 + -0.363636x^11 + -1.4x^10 + -0.444444x^9 + -1.375x^8 + -1.28571x^7 + -1.83333x^6 + 1.2x^5 + 2x^4 + -2.66667x^3 + 4x^2 + -7x + 
+
+Definite integral of p1 from 0 to 1: 4
+Definite integral of p2 from 0 to 1: -8.50213
+
+Test Case 22
+p1: 15x^6 + 9x^5 + 4x^4 + 2x^3 + 15x^2 + 7x + -14
+p2: -13x^3 + -12x^2 + 13x + -8
+p1 + p2: 15x^6 + 9x^5 + 4x^4 + -11x^3 + 3x^2 + 20x + -22
+p1 - p2: 15x^6 + 9x^5 + 4x^4 + 15x^3 + 27x^2 + -6x + -6
+p1 * p2: -195x^9 + -297x^8 + 35x^7 + -77x^6 + -239x^5 + -277x^4 + 277x^3 + 139x^2 + -238x + 112
+
+p1 evaluated at x = 2.5: 4825.77
+p2 evaluated at x = 2.5: -253.625
+
+Derivative of p1: 90x^5 + 45x^4 + 16x^3 + 6x^2 + 30x + 7
+Derivative of p2: -39x^2 + -24x + 13
+
+Integral of p1: 2.14286x^7 + 1.5x^6 + 0.8x^5 + 0.5x^4 + 5x^3 + 3.5x^2 + -14x + 
+Integral of p2: -3.25x^4 + -4x^3 + 6.5x^2 + -8x + 
+
+Definite integral of p1 from 0 to 1: -0.557143
+Definite integral of p2 from 0 to 1: -8.75
+
+Test Case 23
+p1: -14x + 14
+p2: 3x^3 + -10x^2 + 11x + -7
+p1 + p2: 3x^3 + -10x^2 + -3x + 7
+p1 - p2: -3x^3 + 10x^2 + -25x + 21
+p1 * p2: -42x^4 + 182x^3 + -294x^2 + 252x + -98
+
+p1 evaluated at x = 2.5: -21
+p2 evaluated at x = 2.5: 4.875
+
+Derivative of p1: -14
+Derivative of p2: 9x^2 + -20x + 11
+
+Integral of p1: -7x^2 + 14x + 
+Integral of p2: 0.75x^4 + -3.33333x^3 + 5.5x^2 + -7x + 
+
+Definite integral of p1 from 0 to 1: 7
+Definite integral of p2 from 0 to 1: -4.08333
+
+Test Case 24
+p1: 6x^8 + 7x^7 + 10x^6 + 8x^5 + 1x^4 + 8x^3 + -12x^2 + 7x + -13
+p2: -2x^3 + -2x^2 + -12x + 13
+p1 + p2: 6x^8 + 7x^7 + 10x^6 + 8x^5 + 1x^4 + 6x^3 + -14x^2 + -5x + 
+p1 - p2: 6x^8 + 7x^7 + 10x^6 + 8x^5 + 1x^4 + 10x^3 + -10x^2 + 19x + -26
+p1 * p2: -12x^11 + -26x^10 + -106x^9 + -42x^8 + -47x^7 + 16x^6 + 100x^5 + -73x^4 + 260x^3 + -214x^2 + 247x + -169
+
+p1 evaluated at x = 2.5: 16744
+p2 evaluated at x = 2.5: -60.75
+
+Derivative of p1: 48x^7 + 49x^6 + 60x^5 + 40x^4 + 4x^3 + 24x^2 + -24x + 7
+Derivative of p2: -6x^2 + -4x + -12
+
+Integral of p1: 0.666667x^9 + 0.875x^8 + 1.42857x^7 + 1.33333x^6 + 0.2x^5 + 2x^4 + -4x^3 + 3.5x^2 + -13x + 
+Integral of p2: -0.5x^4 + -0.666667x^3 + -6x^2 + 13x + 
+
+Definite integral of p1 from 0 to 1: -6.99643
+Definite integral of p2 from 0 to 1: 5.83333
+
+Test Case 25
+p1: 3x^2 + -1x + -6
+p2: 14x^6 + -5x^5 + 15x^4 + 2x^3 + -1x^2 + -3x + 10
+p1 + p2: 14x^6 + -5x^5 + 15x^4 + 2x^3 + 2x^2 + -4x + 4
+p1 - p2: -14x^6 + 5x^5 + -15x^4 + -2x^3 + 4x^2 + 2x + -16
+p1 * p2: 42x^8 + -29x^7 + -34x^6 + 21x^5 + -95x^4 + -20x^3 + 39x^2 + 8x + -60
+
+p1 evaluated at x = 2.5: 10.25
+p2 evaluated at x = 2.5: 3543.12
+
+Derivative of p1: 6x + -1
+Derivative of p2: 84x^5 + -25x^4 + 60x^3 + 6x^2 + -2x + -3
+
+Integral of p1: 1x^3 + -0.5x^2 + -6x + 
+Integral of p2: 2x^7 + -0.833333x^6 + 3x^5 + 0.5x^4 + -0.333333x^3 + -1.5x^2 + 10x + 
+
+Definite integral of p1 from 0 to 1: -5.5
+Definite integral of p2 from 0 to 1: 12.8333
+
+Test Case 26
+p1: 12
+p2: -14x^9 + -6x^8 + 11x^7 + -12x^6 + -2x^5 + 14x^4 + 12x^3 + 3x^2 + 5x + 11
+p1 + p2: -14x^9 + -6x^8 + 11x^7 + -12x^6 + -2x^5 + 14x^4 + 12x^3 + 3x^2 + 5x + 23
+p1 - p2: 14x^9 + 6x^8 + -11x^7 + 12x^6 + 2x^5 + -14x^4 + -12x^3 + -3x^2 + -5x + 1
+p1 * p2: -168x^9 + -72x^8 + 132x^7 + -144x^6 + -24x^5 + 168x^4 + 144x^3 + 36x^2 + 60x + 132
+
+p1 evaluated at x = 2.5: 12
+p2 evaluated at x = 2.5: -58195.5
+
+Derivative of p1: 
+Derivative of p2: -126x^8 + -48x^7 + 77x^6 + -72x^5 + -10x^4 + 56x^3 + 36x^2 + 6x + 5
+
+Integral of p1: 12x + 
+Integral of p2: -1.4x^10 + -0.666667x^9 + 1.375x^8 + -1.71429x^7 + -0.333333x^6 + 2.8x^5 + 3x^4 + 1x^3 + 2.5x^2 + 11x + 
+
+Definite integral of p1 from 0 to 1: 12
+Definite integral of p2 from 0 to 1: 17.5607
+
+Test Case 27
+p1: -8x^11 + -4x^10 + -5x^9 + 6x^8 + 14x^7 + 2x^6 + -8x^5 + -3x^4 + -1x^3 + 14x^2 + -5x + -2
+p2: -11x^10 + -9x^9 + 14x^8 + -2x^7 + 2x^6 + -12x^5 + -9x^4 + 9x^3 + 7x^2 + -7x + -12
+p1 + p2: -8x^11 + -15x^10 + -14x^9 + 20x^8 + 12x^7 + 4x^6 + -20x^5 + -12x^4 + 8x^3 + 21x^2 + -12x + -14
+p1 - p2: -8x^11 + 7x^10 + 4x^9 + -8x^8 + 16x^7 + 4x^5 + 6x^4 + -10x^3 + 7x^2 + 2x + 10
+p1 * p2: 88x^21 + 116x^20 + -21x^19 + -61x^18 + -286x^17 + 34x^16 + 364x^15 + 141x^14 + -169x^13 + -406x^12 + -102x^11 + 588x^10 + 160x^9 + -179x^8 + -430x^7 + -68x^6 + 305x^5 + 114x^4 + -139x^3 + -147x^2 + 74x + 24
+
+p1 evaluated at x = 2.5: -230608
+p2 evaluated at x = 2.5: -119975
+
+Derivative of p1: -88x^10 + -40x^9 + -45x^8 + 48x^7 + 98x^6 + 12x^5 + -40x^4 + -12x^3 + -3x^2 + 28x + -5
+Derivative of p2: -110x^9 + -81x^8 + 112x^7 + -14x^6 + 12x^5 + -60x^4 + -36x^3 + 27x^2 + 14x + -7
+
+Integral of p1: -0.666667x^12 + -0.363636x^11 + -0.5x^10 + 0.666667x^9 + 1.75x^8 + 0.285714x^7 + -1.33333x^6 + -0.6x^5 + -0.25x^4 + 4.66667x^3 + -2.5x^2 + -2x + 
+Integral of p2: -1x^11 + -0.9x^10 + 1.55556x^9 + -0.25x^8 + 0.285714x^7 + -2x^6 + -1.8x^5 + 2.25x^4 + 2.33333x^3 + -3.5x^2 + -12x + 
+
+Definite integral of p1 from 0 to 1: -0.844589
+Definite integral of p2 from 0 to 1: -15.0254
+
+Test Case 28
+p1: -2x + -1
+p2: 9x^9 + 14x^8 + 4x^7 + 12x^6 + -10x^5 + -13x^4 + -9x^3 + 4x^2 + -9x + -2
+p1 + p2: 9x^9 + 14x^8 + 4x^7 + 12x^6 + -10x^5 + -13x^4 + -9x^3 + 4x^2 + -11x + -3
+p1 - p2: -9x^9 + -14x^8 + -4x^7 + -12x^6 + 10x^5 + 13x^4 + 9x^3 + -4x^2 + 7x + 1
+p1 * p2: -18x^10 + -37x^9 + -22x^8 + -28x^7 + 8x^6 + 36x^5 + 31x^4 + 1x^3 + 14x^2 + 13x + 2
+
+p1 evaluated at x = 2.5: -6
+p2 evaluated at x = 2.5: 59441.2
+
+Derivative of p1: -2
+Derivative of p2: 81x^8 + 112x^7 + 28x^6 + 72x^5 + -50x^4 + -52x^3 + -27x^2 + 8x + -9
+
+Integral of p1: -1x^2 + -1x + 
+Integral of p2: 0.9x^10 + 1.55556x^9 + 0.5x^8 + 1.71429x^7 + -1.66667x^6 + -2.6x^5 + -2.25x^4 + 1.33333x^3 + -4.5x^2 + -2x + 
+
+Definite integral of p1 from 0 to 1: -2
+Definite integral of p2 from 0 to 1: -7.01349
+
+Test Case 29
+p1: 8x^7 + 9x^6 + 3x^5 + 3x^4 + -4x^3 + -7x^2 + 15x + -7
+p2: 2x^3 + -3x + -9
+p1 + p2: 8x^7 + 9x^6 + 3x^5 + 3x^4 + -2x^3 + -7x^2 + 12x + -16
+p1 - p2: 8x^7 + 9x^6 + 3x^5 + 3x^4 + -6x^3 + -7x^2 + 18x + 2
+p1 * p2: 16x^10 + 18x^9 + -18x^8 + -93x^7 + -98x^6 + -50x^5 + 15x^4 + 43x^3 + 18x^2 + -114x + 63
+
+p1 evaluated at x = 2.5: 7414.48
+p2 evaluated at x = 2.5: 14.75
+
+Derivative of p1: 56x^6 + 54x^5 + 15x^4 + 12x^3 + -12x^2 + -14x + 15
+Derivative of p2: 6x^2 + -3
+
+Integral of p1: 1x^8 + 1.28571x^7 + 0.5x^6 + 0.6x^5 + -1x^4 + -2.33333x^3 + 7.5x^2 + -7x + 
+Integral of p2: 0.5x^4 + -1.5x^2 + -9x + 
+
+Definite integral of p1 from 0 to 1: 0.552381
+Definite integral of p2 from 0 to 1: -10
+
+Test Case 30
+p1: -14x^6 + 6x^5 + 14x^4 + -12x^3 + 6x^2 + 15x + -10
+p2: 7x^10 + 3x^9 + -10x^8 + -3x^7 + 9x^6 + -11x^5 + -14x^4 + 7x^3 + -7x^2 + -3x + 8
+p1 + p2: 7x^10 + 3x^9 + -10x^8 + -3x^7 + -5x^6 + -5x^5 + -5x^3 + -1x^2 + 12x + -2
+p1 - p2: -7x^10 + -3x^9 + 10x^8 + 3x^7 + -23x^6 + 17x^5 + 28x^4 + -19x^3 + 13x^2 + 18x + -18
+p1 * p2: -98x^16 + 256x^14 + -60x^13 + -278x^12 + 409x^11 + 207x^10 + -642x^9 + 185x^8 + 365x^7 + -651x^6 + 32x^5 + 351x^4 + -289x^3 + 73x^2 + 150x + -80
+
+p1 evaluated at x = 2.5: -2407.66
+p2 evaluated at x = 2.5: 61753.7
+
+Derivative of p1: -84x^5 + 30x^4 + 56x^3 + -36x^2 + 12x + 15
+Derivative of p2: 70x^9 + 27x^8 + -80x^7 + -21x^6 + 54x^5 + -55x^4 + -56x^3 + 21x^2 + -14x + -3
+
+Integral of p1: -2x^7 + 1x^6 + 2.8x^5 + -3x^4 + 2x^3 + 7.5x^2 + -10x + 
+Integral of p2: 0.636364x^11 + 0.3x^10 + -1.11111x^9 + -0.375x^8 + 1.28571x^7 + -1.83333x^6 + -2.8x^5 + 1.75x^4 + -2.33333x^3 + -1.5x^2 + 8x + 
+
+Definite integral of p1 from 0 to 1: -1.7
+Definite integral of p2 from 0 to 1: 2.0193
+
+Test Case 31
+p1: 1x^3 + -14x^2 + 7x + 1
+p2: -11x^2 + 9x + -9
+p1 + p2: 1x^3 + -25x^2 + 16x + -8
+p1 - p2: 1x^3 + -3x^2 + -2x + 10
+p1 * p2: -11x^5 + 163x^4 + -212x^3 + 178x^2 + -54x + -9
+
+p1 evaluated at x = 2.5: -53.375
+p2 evaluated at x = 2.5: -55.25
+
+Derivative of p1: 3x^2 + -28x + 7
+Derivative of p2: -22x + 9
+
+Integral of p1: 0.25x^4 + -4.66667x^3 + 3.5x^2 + 1x + 
+Integral of p2: -3.66667x^3 + 4.5x^2 + -9x + 
+
+Definite integral of p1 from 0 to 1: 0.0833333
+Definite integral of p2 from 0 to 1: -8.16667
+
+Test Case 32
+p1: 14x^11 + 10x^10 + -12x^9 + 6x^8 + -4x^7 + -14x^6 + 2x^5 + 10x^4 + -3x^3 + -9x^2 + -9x + 7
+p2: 6
+p1 + p2: 14x^11 + 10x^10 + -12x^9 + 6x^8 + -4x^7 + -14x^6 + 2x^5 + 10x^4 + -3x^3 + -9x^2 + -9x + 13
+p1 - p2: 14x^11 + 10x^10 + -12x^9 + 6x^8 + -4x^7 + -14x^6 + 2x^5 + 10x^4 + -3x^3 + -9x^2 + -9x + 1
+p1 * p2: 84x^11 + 60x^10 + -72x^9 + 36x^8 + -24x^7 + -84x^6 + 12x^5 + 60x^4 + -18x^3 + -54x^2 + -54x + 42
+
+p1 evaluated at x = 2.5: 387140
+p2 evaluated at x = 2.5: 6
+
+Derivative of p1: 154x^10 + 100x^9 + -108x^8 + 48x^7 + -28x^6 + -84x^5 + 10x^4 + 40x^3 + -9x^2 + -18x + -9
+Derivative of p2: 
+
+Integral of p1: 1.16667x^12 + 0.909091x^11 + -1.2x^10 + 0.666667x^9 + -0.5x^8 + -2x^7 + 0.333333x^6 + 2x^5 + -0.75x^4 + -3x^3 + -4.5x^2 + 7x + 
+Integral of p2: 6x + 
+
+Definite integral of p1 from 0 to 1: 0.125758
+Definite integral of p2 from 0 to 1: 6
+
+Test Case 33
+p1: -12
+p2: 8x^7 + 5x^6 + -13x^5 + -6x^4 + 8x^2 + 11x + 13
+p1 + p2: 8x^7 + 5x^6 + -13x^5 + -6x^4 + 8x^2 + 11x + 1
+p1 - p2: -8x^7 + -5x^6 + 13x^5 + 6x^4 + -8x^2 + -11x + -25
+p1 * p2: -96x^7 + -60x^6 + 156x^5 + 72x^4 + -96x^2 + -132x + -156
+
+p1 evaluated at x = 2.5: -12
+p2 evaluated at x = 2.5: 4690.11
+
+Derivative of p1: 
+Derivative of p2: 56x^6 + 30x^5 + -65x^4 + -24x^3 + 16x + 11
+
+Integral of p1: -12x + 
+Integral of p2: 1x^8 + 0.714286x^7 + -2.16667x^6 + -1.2x^5 + 2.66667x^3 + 5.5x^2 + 13x + 
+
+Definite integral of p1 from 0 to 1: -12
+Definite integral of p2 from 0 to 1: 19.5143
+
+Test Case 34
+p1: 14x^5 + 13x^4 + -5x^3 + -1x^2 + -4x + 14
+p2: -12x^9 + 12x^8 + -3x^7 + -12x^6 + -12x^5 + 15x^4 + -2x^3 + -6x^2 + -6x + -3
+p1 + p2: -12x^9 + 12x^8 + -3x^7 + -12x^6 + 2x^5 + 28x^4 + -7x^3 + -7x^2 + -10x + 11
+p1 - p2: 12x^9 + -12x^8 + 3x^7 + 12x^6 + 26x^5 + -2x^4 + -3x^3 + 5x^2 + 2x + 17
+p1 * p2: -168x^14 + 12x^13 + 174x^12 + -255x^11 + -273x^10 + -99x^9 + 419x^8 + -167x^7 + -287x^6 + -316x^5 + 215x^4 + 17x^3 + -57x^2 + -72x + -42
+
+p1 evaluated at x = 2.5: 1794.62
+p2 evaluated at x = 2.5: -32899.2
+
+Derivative of p1: 70x^4 + 52x^3 + -15x^2 + -2x + -4
+Derivative of p2: -108x^8 + 96x^7 + -21x^6 + -72x^5 + -60x^4 + 60x^3 + -6x^2 + -12x + -6
+
+Integral of p1: 2.33333x^6 + 2.6x^5 + -1.25x^4 + -0.333333x^3 + -2x^2 + 14x + 
+Integral of p2: -1.2x^10 + 1.33333x^9 + -0.375x^8 + -1.71429x^7 + -2x^6 + 3x^5 + -0.5x^4 + -2x^3 + -3x^2 + -3x + 
+
+Definite integral of p1 from 0 to 1: 15.35
+Definite integral of p2 from 0 to 1: -9.45595
+
+Test Case 35
+p1: 3
+p2: 3x + 13
+p1 + p2: 3x + 16
+p1 - p2: -3x + -10
+p1 * p2: 9x + 39
+
+p1 evaluated at x = 2.5: 3
+p2 evaluated at x = 2.5: 20.5
+
+Derivative of p1: 
+Derivative of p2: 3
+
+Integral of p1: 3x + 
+Integral of p2: 1.5x^2 + 13x + 
+
+Definite integral of p1 from 0 to 1: 3
+Definite integral of p2 from 0 to 1: 14.5
+
+Test Case 36
+p1: -11x^9 + 2x^8 + 15x^7 + -1x^6 + 12x^5 + 8x^4 + 2x^3 + -9x^2 + -13x + -6
+p2: 2x^2 + 4x + -7
+p1 + p2: -11x^9 + 2x^8 + 15x^7 + -1x^6 + 12x^5 + 8x^4 + 2x^3 + -7x^2 + -9x + -13
+p1 - p2: -11x^9 + 2x^8 + 15x^7 + -1x^6 + 12x^5 + 8x^4 + 2x^3 + -11x^2 + -17x + 1
+p1 * p2: -22x^11 + -40x^10 + 115x^9 + 44x^8 + -85x^7 + 71x^6 + -48x^5 + -66x^4 + -76x^3 + -1x^2 + 67x + 42
+
+p1 evaluated at x = 2.5: -28577.9
+p2 evaluated at x = 2.5: 15.5
+
+Derivative of p1: -99x^8 + 16x^7 + 105x^6 + -6x^5 + 60x^4 + 32x^3 + 6x^2 + -18x + -13
+Derivative of p2: 4x + 4
+
+Integral of p1: -1.1x^10 + 0.222222x^9 + 1.875x^8 + -0.142857x^7 + 2x^6 + 1.6x^5 + 0.5x^4 + -3x^3 + -6.5x^2 + -6x + 
+Integral of p2: 0.666667x^3 + 2x^2 + -7x + 
+
+Definite integral of p1 from 0 to 1: -10.5456
+Definite integral of p2 from 0 to 1: -4.33333
+
+Test Case 37
+p1: 5x^4 + -3x^3 + -5x^2 + 3x + -14
+p2: 4x^8 + -6x^7 + -2x^6 + 8x^4 + -9x^3 + -6x^2 + -13x + 10
+p1 + p2: 4x^8 + -6x^7 + -2x^6 + 13x^4 + -12x^3 + -11x^2 + -10x + -4
+p1 - p2: -4x^8 + 6x^7 + 2x^6 + -3x^4 + 6x^3 + 1x^2 + 16x + -24
+p1 * p2: 20x^12 + -42x^11 + -12x^10 + 48x^9 + -24x^8 + 9x^7 + -15x^6 + 22x^5 + -20x^4 + 143x^3 + -5x^2 + 212x + -140
+
+p1 evaluated at x = 2.5: 110.688
+p2 evaluated at x = 2.5: 2065
+
+Derivative of p1: 20x^3 + -9x^2 + -10x + 3
+Derivative of p2: 32x^7 + -42x^6 + -12x^5 + 32x^3 + -27x^2 + -12x + -13
+
+Integral of p1: 1x^5 + -0.75x^4 + -1.66667x^3 + 1.5x^2 + -14x + 
+Integral of p2: 0.444444x^9 + -0.75x^8 + -0.285714x^7 + 1.6x^5 + -2.25x^4 + -2x^3 + -6.5x^2 + 10x + 
+
+Definite integral of p1 from 0 to 1: -13.9167
+Definite integral of p2 from 0 to 1: 0.25873
+
+Test Case 38
+p1: 1x^3 + 6x^2 + -8x + -6
+p2: 13x^10 + 9x^9 + 8x^8 + 12x^7 + 5x^6 + -1x^5 + -1x^4 + 3x^3 + -12x^2 + 1x + -4
+p1 + p2: 13x^10 + 9x^9 + 8x^8 + 12x^7 + 5x^6 + -1x^5 + -1x^4 + 4x^3 + -6x^2 + -7x + -10
+p1 - p2: -13x^10 + -9x^9 + -8x^8 + -12x^7 + -5x^6 + 1x^5 + 1x^4 + -2x^3 + 18x^2 + -9x + -2
+p1 * p2: 13x^13 + 87x^12 + -42x^11 + -90x^10 + -41x^9 + -115x^8 + -119x^7 + -25x^6 + 20x^5 + -89x^4 + 80x^3 + 40x^2 + 26x + 24
+
+p1 evaluated at x = 2.5: 27.125
+p2 evaluated at x = 2.5: 178896
+
+Derivative of p1: 3x^2 + 12x + -8
+Derivative of p2: 130x^9 + 81x^8 + 64x^7 + 84x^6 + 30x^5 + -5x^4 + -4x^3 + 9x^2 + -24x + 1
+
+Integral of p1: 0.25x^4 + 2x^3 + -4x^2 + -6x + 
+Integral of p2: 1.18182x^11 + 0.9x^10 + 0.888889x^9 + 1.5x^8 + 0.714286x^7 + -0.166667x^6 + -0.2x^5 + 0.75x^4 + -4x^3 + 0.5x^2 + -4x + 
+
+Definite integral of p1 from 0 to 1: -7.75
+Definite integral of p2 from 0 to 1: -1.93167
+
+Test Case 39
+p1: 4x + -7
+p2: 5x^7 + 4x^6 + -7x^5 + 11x^4 + 14x^3 + 7x^2 + -5x + -3
+p1 + p2: 5x^7 + 4x^6 + -7x^5 + 11x^4 + 14x^3 + 7x^2 + -1x + -10
+p1 - p2: -5x^7 + -4x^6 + 7x^5 + -11x^4 + -14x^3 + -7x^2 + 9x + -4
+p1 * p2: 20x^8 + -19x^7 + -56x^6 + 93x^5 + -21x^4 + -70x^3 + -69x^2 + 23x + 21
+
+p1 evaluated at x = 2.5: 3
+p2 evaluated at x = 2.5: 4021.41
+
+Derivative of p1: 4
+Derivative of p2: 35x^6 + 24x^5 + -35x^4 + 44x^3 + 42x^2 + 14x + -5
+
+Integral of p1: 2x^2 + -7x + 
+Integral of p2: 0.625x^8 + 0.571429x^7 + -1.16667x^6 + 2.2x^5 + 3.5x^4 + 2.33333x^3 + -2.5x^2 + -3x + 
+
+Definite integral of p1 from 0 to 1: -5
+Definite integral of p2 from 0 to 1: 2.5631
+
+Test Case 40
+p1: -11x^4 + 14x^3 + -12x^2 + -14x + 4
+p2: 1x^9 + -4x^8 + 9x^7 + 6x^6 + -2x^5 + 5x^4 + 2x^3 + -7x^2 + 11x + 4
+p1 + p2: 1x^9 + -4x^8 + 9x^7 + 6x^6 + -2x^5 + -6x^4 + 16x^3 + -19x^2 + -3x + 8
+p1 - p2: -1x^9 + 4x^8 + -9x^7 + -6x^6 + 2x^5 + -16x^4 + 12x^3 + -5x^2 + -25x + 
+p1 * p2: -11x^13 + 58x^12 + -167x^11 + 94x^10 + 58x^9 + -297x^8 + 24x^7 + 97x^6 + -321x^5 + 186x^4 + 30x^3 + -230x^2 + -12x + 16
+
+p1 evaluated at x = 2.5: -316.938
+p2 evaluated at x = 2.5: 4688.19
+
+Derivative of p1: -44x^3 + 42x^2 + -24x + -14
+Derivative of p2: 9x^8 + -32x^7 + 63x^6 + 36x^5 + -10x^4 + 20x^3 + 6x^2 + -14x + 11
+
+Integral of p1: -2.2x^5 + 3.5x^4 + -4x^3 + -7x^2 + 4x + 
+Integral of p2: 0.1x^10 + -0.444444x^9 + 1.125x^8 + 0.857143x^7 + -0.333333x^6 + 1x^5 + 0.5x^4 + -2.33333x^3 + 5.5x^2 + 4x + 
+
+Definite integral of p1 from 0 to 1: -5.7
+Definite integral of p2 from 0 to 1: 9.97103
+
+Test Case 41
+p1: -9x^5 + -3x^4 + 10x^3 + -8x^2 + -12x + -9
+p2: 13x^2 + -3x + -7
+p1 + p2: -9x^5 + -3x^4 + 10x^3 + 5x^2 + -15x + -16
+p1 - p2: -9x^5 + -3x^4 + 10x^3 + -21x^2 + -9x + -2
+p1 * p2: -117x^7 + -12x^6 + 202x^5 + -113x^4 + -202x^3 + -25x^2 + 111x + 63
+
+p1 evaluated at x = 2.5: -928.844
+p2 evaluated at x = 2.5: 66.75
+
+Derivative of p1: -45x^4 + -12x^3 + 30x^2 + -16x + -12
+Derivative of p2: 26x + -3
+
+Integral of p1: -1.5x^6 + -0.6x^5 + 2.5x^4 + -2.66667x^3 + -6x^2 + -9x + 
+Integral of p2: 4.33333x^3 + -1.5x^2 + -7x + 
+
+Definite integral of p1 from 0 to 1: -17.2667
+Definite integral of p2 from 0 to 1: -4.16667
+
+Test Case 42
+p1: -5x^5 + 14x^4 + -5x^3 + -2x^2 + -7x + -4
+p2: -5x^7 + -4x^6 + 13x^5 + -5x^4 + 4x^3 + -11x^2 + 15x + 14
+p1 + p2: -5x^7 + -4x^6 + 8x^5 + 9x^4 + -1x^3 + -13x^2 + 8x + 10
+p1 - p2: 5x^7 + 4x^6 + -18x^5 + 19x^4 + -9x^3 + 9x^2 + -22x + -18
+p1 * p2: 25x^12 + -50x^11 + -96x^10 + 237x^9 + -112x^8 + 158x^7 + -314x^6 + 170x^5 + 135x^4 + -39x^3 + -89x^2 + -158x + -56
+
+p1 evaluated at x = 2.5: -53.5312
+p2 evaluated at x = 2.5: -2908.85
+
+Derivative of p1: -25x^4 + 56x^3 + -15x^2 + -4x + -7
+Derivative of p2: -35x^6 + -24x^5 + 65x^4 + -20x^3 + 12x^2 + -22x + 15
+
+Integral of p1: -0.833333x^6 + 2.8x^5 + -1.25x^4 + -0.666667x^3 + -3.5x^2 + -4x + 
+Integral of p2: -0.625x^8 + -0.571429x^7 + 2.16667x^6 + -1x^5 + 1x^4 + -3.66667x^3 + 7.5x^2 + 14x + 
+
+Definite integral of p1 from 0 to 1: -7.45
+Definite integral of p2 from 0 to 1: 18.8036
+
+Test Case 43
+p1: -10x^10 + 1x^9 + -10x^8 + 9x^7 + 1x^6 + -3x^5 + 12x^4 + -9x^3 + 1x^2 + -5x + -13
+p2: 8x^8 + -14x^7 + 7x^6 + 10x^5 + 11x^4 + 1x^3 + 4x^2 + 13x + 5
+p1 + p2: -10x^10 + 1x^9 + -2x^8 + -5x^7 + 8x^6 + 7x^5 + 23x^4 + -8x^3 + 5x^2 + 8x + -8
+p1 - p2: -10x^10 + 1x^9 + -18x^8 + 23x^7 + -6x^6 + -13x^5 + 1x^4 + -10x^3 + -3x^2 + -18x + -18
+p1 * p2: -80x^18 + 148x^17 + -164x^16 + 119x^15 + -288x^14 + -74x^13 + 86x^12 + -288x^11 + 131x^10 + -118x^9 + 83x^8 + 116x^7 + -125x^6 + -79x^5 + -201x^4 + -65x^3 + -112x^2 + -194x + -65
+
+p1 evaluated at x = 2.5: -101058
+p2 evaluated at x = 2.5: 6855.47
+
+Derivative of p1: -100x^9 + 9x^8 + -80x^7 + 63x^6 + 6x^5 + -15x^4 + 48x^3 + -27x^2 + 2x + -5
+Derivative of p2: 64x^7 + -98x^6 + 42x^5 + 50x^4 + 44x^3 + 3x^2 + 8x + 13
+
+Integral of p1: -0.909091x^11 + 0.1x^10 + -1.11111x^9 + 1.125x^8 + 0.142857x^7 + -0.5x^6 + 2.4x^5 + -2.25x^4 + 0.333333x^3 + -2.5x^2 + -13x + 
+Integral of p2: 0.888889x^9 + -1.75x^8 + 1x^7 + 1.66667x^6 + 2.2x^5 + 0.25x^4 + 1.33333x^3 + 6.5x^2 + 5x + 
+
+Definite integral of p1 from 0 to 1: -16.169
+Definite integral of p2 from 0 to 1: 17.0889
+
+Test Case 44
+p1: 9
+p2: 11x^7 + 5x^6 + -1x^5 + -13x^4 + -2x^3 + 10x^2 + -4x + -7
+p1 + p2: 11x^7 + 5x^6 + -1x^5 + -13x^4 + -2x^3 + 10x^2 + -4x + 2
+p1 - p2: -11x^7 + -5x^6 + 1x^5 + 13x^4 + 2x^3 + -10x^2 + 4x + 16
+p1 * p2: 99x^7 + 45x^6 + -9x^5 + -117x^4 + -18x^3 + 90x^2 + -36x + -63
+
+p1 evaluated at x = 2.5: 9
+p2 evaluated at x = 2.5: 7343.35
+
+Derivative of p1: 
+Derivative of p2: 77x^6 + 30x^5 + -5x^4 + -52x^3 + -6x^2 + 20x + -4
+
+Integral of p1: 9x + 
+Integral of p2: 1.375x^8 + 0.714286x^7 + -0.166667x^6 + -2.6x^5 + -0.5x^4 + 3.33333x^3 + -2x^2 + -7x + 
+
+Definite integral of p1 from 0 to 1: 9
+Definite integral of p2 from 0 to 1: -6.84405
+
+Test Case 45
+p1: 12x^8 + -7x^7 + 13x^6 + 7x^5 + -11x^4 + 15x^3 + 1x^2 + 1x + 
+p2: 4x + 9
+p1 + p2: 12x^8 + -7x^7 + 13x^6 + 7x^5 + -11x^4 + 15x^3 + 1x^2 + 5x + 9
+p1 - p2: 12x^8 + -7x^7 + 13x^6 + 7x^5 + -11x^4 + 15x^3 + 1x^2 + -3x + -9
+p1 * p2: 48x^9 + 80x^8 + -11x^7 + 145x^6 + 19x^5 + -39x^4 + 139x^3 + 13x^2 + 9x + 
+
+p1 evaluated at x = 2.5: 17708.9
+p2 evaluated at x = 2.5: 19
+
+Derivative of p1: 96x^7 + -49x^6 + 78x^5 + 35x^4 + -44x^3 + 45x^2 + 2x + 1
+Derivative of p2: 4
+
+Integral of p1: 1.33333x^9 + -0.875x^8 + 1.85714x^7 + 1.16667x^6 + -2.2x^5 + 3.75x^4 + 0.333333x^3 + 0.5x^2 + 
+Integral of p2: 2x^2 + 9x + 
+
+Definite integral of p1 from 0 to 1: 5.86548
+Definite integral of p2 from 0 to 1: 11
+
+Test Case 46
+p1: 11
+p2: 9
+p1 + p2: 20
+p1 - p2: 2
+p1 * p2: 99
+
+p1 evaluated at x = 2.5: 11
+p2 evaluated at x = 2.5: 9
+
+Derivative of p1: 
+Derivative of p2: 
+
+Integral of p1: 11x + 
+Integral of p2: 9x + 
+
+Definite integral of p1 from 0 to 1: 11
+Definite integral of p2 from 0 to 1: 9
+
+Test Case 47
+p1: 10x^10 + 8x^9 + -7x^8 + -5x^7 + -1x^6 + 15x^5 + 3x^4 + 10x^3 + 1x^2 + 13x + 
+p2: 13x^4 + 9x^3 + 2x^2 + 11
+p1 + p2: 10x^10 + 8x^9 + -7x^8 + -5x^7 + -1x^6 + 15x^5 + 16x^4 + 19x^3 + 3x^2 + 13x + 11
+p1 - p2: 10x^10 + 8x^9 + -7x^8 + -5x^7 + -1x^6 + 15x^5 + -10x^4 + 1x^3 + -1x^2 + 13x + -11
+p1 * p2: 130x^14 + 194x^13 + 1x^12 + -112x^11 + 38x^10 + 264x^9 + 95x^8 + 132x^7 + 98x^6 + 363x^5 + 152x^4 + 136x^3 + 11x^2 + 143x + 
+
+p1 evaluated at x = 2.5: 113685
+p2 evaluated at x = 2.5: 671.938
+
+Derivative of p1: 100x^9 + 72x^8 + -56x^7 + -35x^6 + -6x^5 + 75x^4 + 12x^3 + 30x^2 + 2x + 13
+Derivative of p2: 52x^3 + 27x^2 + 4x + 
+
+Integral of p1: 0.909091x^11 + 0.8x^10 + -0.777778x^9 + -0.625x^8 + -0.142857x^7 + 2.5x^6 + 0.6x^5 + 2.5x^4 + 0.333333x^3 + 6.5x^2 + 
+Integral of p2: 2.6x^5 + 2.25x^4 + 0.666667x^3 + 11x + 
+
+Definite integral of p1 from 0 to 1: 12.5968
+Definite integral of p2 from 0 to 1: 16.5167
+
+Test Case 48
+p1: -9x^7 + 3x^5 + -1x^4 + -14x^3 + -6x^2 + -13x + 12
+p2: -4x^10 + -11x^9 + -7x^8 + -9x^7 + -5x^6 + -7x^5 + -14x^4 + -8x^3 + 13x^2 + -14x + -4
+p1 + p2: -4x^10 + -11x^9 + -7x^8 + -18x^7 + -5x^6 + -4x^5 + -15x^4 + -22x^3 + 7x^2 + -27x + 8
+p1 - p2: 4x^10 + 11x^9 + 7x^8 + 5x^6 + 10x^5 + 13x^4 + -6x^3 + -19x^2 + 1x + 16
+p1 * p2: 36x^17 + 99x^16 + 51x^15 + 52x^14 + 91x^13 + 221x^12 + 336x^11 + 319x^10 + -69x^9 + 277x^8 + 278x^7 + 172x^6 + -34x^5 + 58x^4 + -125x^3 + 362x^2 + -116x + -48
+
+p1 evaluated at x = 2.5: -5516.01
+p2 evaluated at x = 2.5: -98816.9
+
+Derivative of p1: -63x^6 + 15x^4 + -4x^3 + -42x^2 + -12x + -13
+Derivative of p2: -40x^9 + -99x^8 + -56x^7 + -63x^6 + -30x^5 + -35x^4 + -56x^3 + -24x^2 + 26x + -14
+
+Integral of p1: -1.125x^8 + 0.5x^6 + -0.2x^5 + -3.5x^4 + -2x^3 + -6.5x^2 + 12x + 
+Integral of p2: -0.363636x^11 + -1.1x^10 + -0.777778x^9 + -1.125x^8 + -0.714286x^7 + -1.16667x^6 + -2.8x^5 + -2x^4 + 4.33333x^3 + -7x^2 + -4x + 
+
+Definite integral of p1 from 0 to 1: -0.825
+Definite integral of p2 from 0 to 1: -16.714
+
+Test Case 49
+p1: 3x^5 + 5x^4 + -5x^3 + 2x^2 + 9x + -8
+p2: 4x^10 + -8x^9 + 13x^8 + 4x^7 + -3x^6 + -6x^5 + 9x^4 + -3x^3 + 12x^2 + 2x + 15
+p1 + p2: 4x^10 + -8x^9 + 13x^8 + 4x^7 + -3x^6 + -3x^5 + 14x^4 + -8x^3 + 14x^2 + 11x + 7
+p1 - p2: -4x^10 + 8x^9 + -13x^8 + -4x^7 + 3x^6 + 9x^5 + -4x^4 + -2x^3 + -10x^2 + 7x + -23
+p1 * p2: 12x^15 + -4x^14 + -21x^13 + 125x^12 + -34x^11 + -131x^10 + 201x^9 + -8x^8 + -95x^7 + 69x^6 + 118x^5 + -10x^4 + 61x^3 + -48x^2 + 119x + -120
+
+p1 evaluated at x = 2.5: 437.156
+p2 evaluated at x = 2.5: 28988.6
+
+Derivative of p1: 15x^4 + 20x^3 + -15x^2 + 4x + 9
+Derivative of p2: 40x^9 + -72x^8 + 104x^7 + 28x^6 + -18x^5 + -30x^4 + 36x^3 + -9x^2 + 24x + 2
+
+Integral of p1: 0.5x^6 + 1x^5 + -1.25x^4 + 0.666667x^3 + 4.5x^2 + -8x + 
+Integral of p2: 0.363636x^11 + -0.8x^10 + 1.44444x^9 + 0.5x^8 + -0.428571x^7 + -1x^6 + 1.8x^5 + -0.75x^4 + 4x^3 + 1x^2 + 15x + 
+
+Definite integral of p1 from 0 to 1: -2.58333
+Definite integral of p2 from 0 to 1: 21.1295
+
+Test Case 50
+p1: -13x^3 + -4x^2 + -13x + 11
+p2: -13x^4 + -1x^3 + 11x^2 + 10x + -7
+p1 + p2: -13x^4 + -14x^3 + 7x^2 + -3x + 4
+p1 - p2: 13x^4 + -12x^3 + -15x^2 + -23x + 18
+p1 * p2: 169x^7 + 65x^6 + 30x^5 + -304x^4 + -103x^3 + 19x^2 + 201x + -77
+
+p1 evaluated at x = 2.5: -249.625
+p2 evaluated at x = 2.5: -436.688
+
+Derivative of p1: -39x^2 + -8x + -13
+Derivative of p2: -52x^3 + -3x^2 + 22x + 10
+
+Integral of p1: -3.25x^4 + -1.33333x^3 + -6.5x^2 + 11x + 
+Integral of p2: -2.6x^5 + -0.25x^4 + 3.66667x^3 + 5x^2 + -7x + 
+
+Definite integral of p1 from 0 to 1: -0.0833333
+Definite integral of p2 from 0 to 1: -1.18333
+
+Test Case 51
+p1: 6x^4 + -1x^3 + 4x^2 + -5x + 7
+p2: 10x + -1
+p1 + p2: 6x^4 + -1x^3 + 4x^2 + 5x + 6
+p1 - p2: 6x^4 + -1x^3 + 4x^2 + -15x + 8
+p1 * p2: 60x^5 + -16x^4 + 41x^3 + -54x^2 + 75x + -7
+
+p1 evaluated at x = 2.5: 238.25
+p2 evaluated at x = 2.5: 24
+
+Derivative of p1: 24x^3 + -3x^2 + 8x + -5
+Derivative of p2: 10
+
+Integral of p1: 1.2x^5 + -0.25x^4 + 1.33333x^3 + -2.5x^2 + 7x + 
+Integral of p2: 5x^2 + -1x + 
+
+Definite integral of p1 from 0 to 1: 6.78333
+Definite integral of p2 from 0 to 1: 4
+
+Test Case 52
+p1: 5
+p2: -7x^7 + 11x^6 + -11x^5 + -8x^4 + -2x^3 + 10x^2 + -14
+p1 + p2: -7x^7 + 11x^6 + -11x^5 + -8x^4 + -2x^3 + 10x^2 + -9
+p1 - p2: 7x^7 + -11x^6 + 11x^5 + 8x^4 + 2x^3 + -10x^2 + 19
+p1 * p2: -35x^7 + 55x^6 + -55x^5 + -40x^4 + -10x^3 + 50x^2 + -70
+
+p1 evaluated at x = 2.5: 5
+p2 evaluated at x = 2.5: -2956.38
+
+Derivative of p1: 
+Derivative of p2: -49x^6 + 66x^5 + -55x^4 + -32x^3 + -6x^2 + 20x + 
+
+Integral of p1: 5x + 
+Integral of p2: -0.875x^8 + 1.57143x^7 + -1.83333x^6 + -1.6x^5 + -0.5x^4 + 3.33333x^3 + -14x + 
+
+Definite integral of p1 from 0 to 1: 5
+Definite integral of p2 from 0 to 1: -13.9036
+
+Test Case 53
+p1: 15x^11 + -7x^10 + 14x^9 + -5x^8 + -12x^7 + -12x^6 + 15x^5 + -13x^4 + 15x^3 + 14x^2 + -1x + -9
+p2: 6x^6 + -6x^5 + -10x^4 + 11x^3 + 2x^2 + -4x + -10
+p1 + p2: 15x^11 + -7x^10 + 14x^9 + -5x^8 + -12x^7 + -6x^6 + 9x^5 + -23x^4 + 26x^3 + 16x^2 + -5x + -19
+p1 - p2: 15x^11 + -7x^10 + 14x^9 + -5x^8 + -12x^7 + -18x^6 + 21x^5 + -3x^4 + 4x^3 + 12x^2 + 3x + 1
+p1 * p2: 90x^17 + -132x^16 + -24x^15 + 121x^14 + -229x^13 + 130x^12 + 133x^11 + -176x^10 + -258x^9 + 363x^8 + -185x^7 + 11x^6 + 150x^5 + 177x^4 + -307x^3 + -154x^2 + 46x + 90
+
+p1 evaluated at x = 2.5: 327661
+p2 evaluated at x = 2.5: 652.656
+
+Derivative of p1: 165x^10 + -70x^9 + 126x^8 + -40x^7 + -84x^6 + -72x^5 + 75x^4 + -52x^3 + 45x^2 + 28x + -1
+Derivative of p2: 36x^5 + -30x^4 + -40x^3 + 33x^2 + 4x + -4
+
+Integral of p1: 1.25x^12 + -0.636364x^11 + 1.4x^10 + -0.555556x^9 + -1.5x^8 + -1.71429x^7 + 2.5x^6 + -2.6x^5 + 3.75x^4 + 4.66667x^3 + -0.5x^2 + -9x + 
+Integral of p2: 0.857143x^7 + -1x^6 + -2x^5 + 2.75x^4 + 0.666667x^3 + -2x^2 + -10x + 
+
+Definite integral of p1 from 0 to 1: -2.93954
+Definite integral of p2 from 0 to 1: -10.7262
+
+Test Case 54
+p1: -8x^11 + -1x^10 + 10x^9 + 15x^8 + 1x^7 + -14x^6 + -9x^5 + 14x^4 + 13x^3 + 12x^2 + -5
+p2: 11x^9 + 9x^8 + 6x^7 + 1x^5 + 8x^4 + 4x^3 + 11x^2 + -6x + -1
+p1 + p2: -8x^11 + -1x^10 + 21x^9 + 24x^8 + 7x^7 + -14x^6 + -8x^5 + 22x^4 + 17x^3 + 23x^2 + -6x + -6
+p1 - p2: -8x^11 + -1x^10 + -1x^9 + 6x^8 + -5x^7 + -14x^6 + -10x^5 + 6x^4 + 9x^3 + 1x^2 + 6x + -4
+p1 * p2: -88x^20 + -83x^19 + 53x^18 + 249x^17 + 198x^16 + -120x^15 + -249x^14 + -8x^13 + 413x^12 + 511x^11 + 175x^10 + -186x^9 + -131x^8 + 126x^7 + 370x^6 + 111x^5 + -105x^3 + -67x^2 + 30x + 5
+
+p1 evaluated at x = 2.5: -142103
+p2 evaluated at x = 2.5: 59882.1
+
+Derivative of p1: -88x^10 + -10x^9 + 90x^8 + 120x^7 + 7x^6 + -84x^5 + -45x^4 + 56x^3 + 39x^2 + 24x + 
+Derivative of p2: 99x^8 + 72x^7 + 42x^6 + 5x^4 + 32x^3 + 12x^2 + 22x + -6
+
+Integral of p1: -0.666667x^12 + -0.0909091x^11 + 1x^10 + 1.66667x^9 + 0.125x^8 + -2x^7 + -1.5x^6 + 2.8x^5 + 3.25x^4 + 4x^3 + -5x + 
+Integral of p2: 1.1x^10 + 1x^9 + 0.75x^8 + 0.166667x^6 + 1.6x^5 + 1x^4 + 3.66667x^3 + -3x^2 + -1x + 
+
+Definite integral of p1 from 0 to 1: 3.58409
+Definite integral of p2 from 0 to 1: 5.28333
+
+Test Case 55
+p1: -8x^10 + -13x^9 + 1x^8 + -7x^7 + 6x^6 + -14x^5 + -8x^4 + 11x^3 + 12x^2 + -3x + -1
+p2: -4x^8 + 4x^6 + -9x^5 + 11x^4 + -12x^3 + 2x^2 + 11x + 14
+p1 + p2: -8x^10 + -13x^9 + -3x^8 + -7x^7 + 10x^6 + -23x^5 + 3x^4 + -1x^3 + 14x^2 + 8x + 13
+p1 - p2: -8x^10 + -13x^9 + 5x^8 + -7x^7 + 2x^6 + -5x^5 + -19x^4 + 23x^3 + 10x^2 + -14x + -15
+p1 * p2: 32x^18 + 52x^17 + -36x^16 + 48x^15 + 9x^14 + -28x^13 + 270x^12 + -357x^11 + -57x^10 + -283x^9 + -18x^8 + 37x^7 + -63x^6 + -430x^5 + 58x^4 + 292x^3 + 133x^2 + -53x + -14
+
+p1 evaluated at x = 2.5: -128608
+p2 evaluated at x = 2.5: -5709.67
+
+Derivative of p1: -80x^9 + -117x^8 + 8x^7 + -49x^6 + 36x^5 + -70x^4 + -32x^3 + 33x^2 + 24x + -3
+Derivative of p2: -32x^7 + 24x^5 + -45x^4 + 44x^3 + -36x^2 + 4x + 11
+
+Integral of p1: -0.727273x^11 + -1.3x^10 + 0.111111x^9 + -0.875x^8 + 0.857143x^7 + -2.33333x^6 + -1.6x^5 + 2.75x^4 + 4x^3 + -1.5x^2 + -1x + 
+Integral of p2: -0.444444x^9 + 0.571429x^7 + -1.5x^6 + 2.2x^5 + -3x^4 + 0.666667x^3 + 5.5x^2 + 14x + 
+
+Definite integral of p1 from 0 to 1: -1.61735
+Definite integral of p2 from 0 to 1: 17.9937
+
+Test Case 56
+p1: -6x^3 + -14x^2 + 9x + 14
+p2: -11x^3 + -13x^2 + -2x + -6
+p1 + p2: -17x^3 + -27x^2 + 7x + 8
+p1 - p2: 5x^3 + -1x^2 + 11x + 20
+p1 * p2: 66x^6 + 232x^5 + 95x^4 + -207x^3 + -116x^2 + -82x + -84
+
+p1 evaluated at x = 2.5: -144.75
+p2 evaluated at x = 2.5: -264.125
+
+Derivative of p1: -18x^2 + -28x + 9
+Derivative of p2: -33x^2 + -26x + -2
+
+Integral of p1: -1.5x^4 + -4.66667x^3 + 4.5x^2 + 14x + 
+Integral of p2: -2.75x^4 + -4.33333x^3 + -1x^2 + -6x + 
+
+Definite integral of p1 from 0 to 1: 12.3333
+Definite integral of p2 from 0 to 1: -14.0833
+
+Test Case 57
+p1: -11x^8 + -13x^7 + 4x^6 + -2x^5 + 9x^4 + 7x^3 + -10x^2 + 1x + 10
+p2: 5x^10 + -3x^9 + -4x^8 + 14x^7 + -6x^6 + 11x^5 + -9x^4 + -14x^3 + -5x^2 + -3
+p1 + p2: 5x^10 + -3x^9 + -15x^8 + 1x^7 + -2x^6 + 9x^5 + -7x^3 + -15x^2 + 1x + 7
+p1 - p2: -5x^10 + 3x^9 + -7x^8 + -27x^7 + 10x^6 + -13x^5 + 18x^4 + 21x^3 + -5x^2 + 1x + 13
+p1 * p2: -55x^18 + -32x^17 + 103x^16 + -124x^15 + -81x^14 + 29x^13 + -203x^12 + 460x^11 + 310x^10 + -90x^9 + 71x^8 + -116x^7 + -114x^6 + 212x^5 + -81x^4 + -166x^3 + -20x^2 + -3x + -30
+
+p1 evaluated at x = 2.5: -23527.1
+p2 evaluated at x = 2.5: 37685.8
+
+Derivative of p1: -88x^7 + -91x^6 + 24x^5 + -10x^4 + 36x^3 + 21x^2 + -20x + 1
+Derivative of p2: 50x^9 + -27x^8 + -32x^7 + 98x^6 + -36x^5 + 55x^4 + -36x^3 + -42x^2 + -10x + 
+
+Integral of p1: -1.22222x^9 + -1.625x^8 + 0.571429x^7 + -0.333333x^6 + 1.8x^5 + 1.75x^4 + -3.33333x^3 + 0.5x^2 + 10x + 
+Integral of p2: 0.454545x^11 + -0.3x^10 + -0.444444x^9 + 1.75x^8 + -0.857143x^7 + 1.83333x^6 + -1.8x^5 + -3.5x^4 + -1.66667x^3 + -3x + 
+
+Definite integral of p1 from 0 to 1: 8.10754
+Definite integral of p2 from 0 to 1: -7.53038
+
+Test Case 58
+p1: -7x^10 + 5x^9 + 1x^8 + -6x^7 + 6x^6 + -3x^5 + -9x^4 + 12x^3 + 5x^2 + -2x + -8
+p2: 11x^10 + 9x^9 + 7x^8 + -6x^7 + -3x^6 + -13x^5 + 11x^4 + -11x^3 + 8x^2 + -10x + -8
+p1 + p2: 4x^10 + 14x^9 + 8x^8 + -12x^7 + 3x^6 + -16x^5 + 2x^4 + 1x^3 + 13x^2 + -12x + -16
+p1 - p2: -18x^10 + -4x^9 + -6x^8 + 9x^6 + 10x^5 + -20x^4 + 23x^3 + -3x^2 + 8x + 
+p1 * p2: -77x^20 + -8x^19 + 7x^18 + 20x^17 + 10x^16 + 49x^15 + -193x^14 + 131x^13 + 78x^12 + 125x^11 + 69x^10 + -232x^9 + -181x^8 + 184x^7 + -117x^6 + 237x^5 + -74x^4 + -74x^3 + -84x^2 + 96x + 64
+
+p1 evaluated at x = 2.5: -48793.9
+p2 evaluated at x = 2.5: 144528
+
+Derivative of p1: -70x^9 + 45x^8 + 8x^7 + -42x^6 + 36x^5 + -15x^4 + -36x^3 + 36x^2 + 10x + -2
+Derivative of p2: 110x^9 + 81x^8 + 56x^7 + -42x^6 + -18x^5 + -65x^4 + 44x^3 + -33x^2 + 16x + -10
+
+Integral of p1: -0.636364x^11 + 0.5x^10 + 0.111111x^9 + -0.75x^8 + 0.857143x^7 + -0.5x^6 + -1.8x^5 + 3x^4 + 1.66667x^3 + -1x^2 + -8x + 
+Integral of p2: 1x^11 + 0.9x^10 + 0.777778x^9 + -0.75x^8 + -0.428571x^7 + -2.16667x^6 + 2.2x^5 + -2.75x^4 + 2.66667x^3 + -5x^2 + -8x + 
+
+Definite integral of p1 from 0 to 1: -6.55144
+Definite integral of p2 from 0 to 1: -11.5508
+
+Test Case 59
+p1: 4x^2 + -9x + -4
+p2: 9x^7 + -3x^6 + 9x^5 + 10x^4 + -13x^3 + -9x^2 + 12x + 6
+p1 + p2: 9x^7 + -3x^6 + 9x^5 + 10x^4 + -13x^3 + -5x^2 + 3x + 2
+p1 - p2: -9x^7 + 3x^6 + -9x^5 + -10x^4 + 13x^3 + 13x^2 + -21x + -10
+p1 * p2: 36x^9 + -93x^8 + 27x^7 + -29x^6 + -178x^5 + 41x^4 + 181x^3 + -48x^2 + -102x + -24
+
+p1 evaluated at x = 2.5: -1.5
+p2 evaluated at x = 2.5: 5806.9
+
+Derivative of p1: 8x + -9
+Derivative of p2: 63x^6 + -18x^5 + 45x^4 + 40x^3 + -39x^2 + -18x + 12
+
+Integral of p1: 1.33333x^3 + -4.5x^2 + -4x + 
+Integral of p2: 1.125x^8 + -0.428571x^7 + 1.5x^6 + 2x^5 + -3.25x^4 + -3x^3 + 6x^2 + 6x + 
+
+Definite integral of p1 from 0 to 1: -7.16667
+Definite integral of p2 from 0 to 1: 9.94643
+
+Test Case 60
+p1: -14x^6 + -9x^5 + -2x^4 + -10x^3 + -13x + 15
+p2: 6
+p1 + p2: -14x^6 + -9x^5 + -2x^4 + -10x^3 + -13x + 21
+p1 - p2: -14x^6 + -9x^5 + -2x^4 + -10x^3 + -13x + 9
+p1 * p2: -84x^6 + -54x^5 + -12x^4 + -60x^3 + -78x + 90
+
+p1 evaluated at x = 2.5: -4548.75
+p2 evaluated at x = 2.5: 6
+
+Derivative of p1: -84x^5 + -45x^4 + -8x^3 + -30x^2 + -13
+Derivative of p2: 
+
+Integral of p1: -2x^7 + -1.5x^6 + -0.4x^5 + -2.5x^4 + -6.5x^2 + 15x + 
+Integral of p2: 6x + 
+
+Definite integral of p1 from 0 to 1: 2.1
+Definite integral of p2 from 0 to 1: 6
+
+Test Case 61
+p1: 2x^4 + 2x^3 + 3x^2 + -13x + 13
+p2: 8x^6 + -5x^5 + -3x^4 + -12x^3 + -6x^2 + 2x + 7
+p1 + p2: 8x^6 + -5x^5 + -1x^4 + -10x^3 + -3x^2 + -11x + 20
+p1 - p2: -8x^6 + 5x^5 + 5x^4 + 14x^3 + 9x^2 + -15x + 6
+p1 * p2: 16x^10 + 6x^9 + 8x^8 + -149x^7 + 124x^6 + -70x^5 + 117x^4 + -58x^3 + -83x^2 + -65x + 91
+
+p1 evaluated at x = 2.5: 108.625
+p2 evaluated at x = 2.5: 1134.66
+
+Derivative of p1: 8x^3 + 6x^2 + 6x + -13
+Derivative of p2: 48x^5 + -25x^4 + -12x^3 + -36x^2 + -12x + 2
+
+Integral of p1: 0.4x^5 + 0.5x^4 + 1x^3 + -6.5x^2 + 13x + 
+Integral of p2: 1.14286x^7 + -0.833333x^6 + -0.6x^5 + -3x^4 + -2x^3 + 1x^2 + 7x + 
+
+Definite integral of p1 from 0 to 1: 8.4
+Definite integral of p2 from 0 to 1: 2.70952
+
+Test Case 62
+p1: -7x^2 + 10x + 1
+p2: -10x^9 + -4x^8 + -8x^7 + 7x^6 + 8x^5 + -2x^4 + -9x^3 + -12x^2 + -1x + 7
+p1 + p2: -10x^9 + -4x^8 + -8x^7 + 7x^6 + 8x^5 + -2x^4 + -9x^3 + -19x^2 + 9x + 8
+p1 - p2: 10x^9 + 4x^8 + 8x^7 + -7x^6 + -8x^5 + 2x^4 + 9x^3 + 5x^2 + 11x + -6
+p1 * p2: 70x^11 + -72x^10 + 6x^9 + -133x^8 + 6x^7 + 101x^6 + 51x^5 + -8x^4 + -122x^3 + -71x^2 + 69x + 7
+
+p1 evaluated at x = 2.5: -17.75
+p2 evaluated at x = 2.5: -46932.3
+
+Derivative of p1: -14x + 10
+Derivative of p2: -90x^8 + -32x^7 + -56x^6 + 42x^5 + 40x^4 + -8x^3 + -27x^2 + -24x + -1
+
+Integral of p1: -2.33333x^3 + 5x^2 + 1x + 
+Integral of p2: -1x^10 + -0.444444x^9 + -1x^8 + 1x^7 + 1.33333x^6 + -0.4x^5 + -2.25x^4 + -4x^3 + -0.5x^2 + 7x + 
+
+Definite integral of p1 from 0 to 1: 3.66667
+Definite integral of p2 from 0 to 1: -0.261111
+
+Test Case 63
+p1: -14x^4 + -8x^3 + -1x^2 + 4x + 10
+p2: 9x^2 + -13x + 
+p1 + p2: -14x^4 + -8x^3 + 8x^2 + -9x + 10
+p1 - p2: -14x^4 + -8x^3 + -10x^2 + 17x + 10
+p1 * p2: -126x^6 + 110x^5 + 95x^4 + 49x^3 + 38x^2 + -130x + 
+
+p1 evaluated at x = 2.5: -658.125
+p2 evaluated at x = 2.5: 23.75
+
+Derivative of p1: -56x^3 + -24x^2 + -2x + 4
+Derivative of p2: 18x + -13
+
+Integral of p1: -2.8x^5 + -2x^4 + -0.333333x^3 + 2x^2 + 10x + 
+Integral of p2: 3x^3 + -6.5x^2 + 
+
+Definite integral of p1 from 0 to 1: 6.86667
+Definite integral of p2 from 0 to 1: -3.5
+
+Test Case 64
+p1: 2
+p2: 12
+p1 + p2: 14
+p1 - p2: -10
+p1 * p2: 24
+
+p1 evaluated at x = 2.5: 2
+p2 evaluated at x = 2.5: 12
+
+Derivative of p1: 
+Derivative of p2: 
+
+Integral of p1: 2x + 
+Integral of p2: 12x + 
+
+Definite integral of p1 from 0 to 1: 2
+Definite integral of p2 from 0 to 1: 12
+
+Test Case 65
+p1: 14x^5 + -2x^4 + 7x^3 + 6x^2 + -1x + -14
+p2: -13x^3 + 7x^2 + -14x + -3
+p1 + p2: 14x^5 + -2x^4 + -6x^3 + 13x^2 + -15x + -17
+p1 - p2: 14x^5 + -2x^4 + 20x^3 + -1x^2 + 13x + -11
+p1 * p2: -182x^8 + 124x^7 + -301x^6 + -43x^5 + -37x^4 + 70x^3 + -102x^2 + 199x + 42
+
+p1 evaluated at x = 2.5: 1419.44
+p2 evaluated at x = 2.5: -197.375
+
+Derivative of p1: 70x^4 + -8x^3 + 21x^2 + 12x + -1
+Derivative of p2: -39x^2 + 14x + -14
+
+Integral of p1: 2.33333x^6 + -0.4x^5 + 1.75x^4 + 2x^3 + -0.5x^2 + -14x + 
+Integral of p2: -3.25x^4 + 2.33333x^3 + -7x^2 + -3x + 
+
+Definite integral of p1 from 0 to 1: -8.81667
+Definite integral of p2 from 0 to 1: -10.9167
+
+Test Case 66
+p1: 15x^4 + 15x^3 + 2x^2 + 6x + -14
+p2: 14
+p1 + p2: 15x^4 + 15x^3 + 2x^2 + 6x + 
+p1 - p2: 15x^4 + 15x^3 + 2x^2 + 6x + -28
+p1 * p2: 210x^4 + 210x^3 + 28x^2 + 84x + -196
+
+p1 evaluated at x = 2.5: 833.812
+p2 evaluated at x = 2.5: 14
+
+Derivative of p1: 60x^3 + 45x^2 + 4x + 6
+Derivative of p2: 
+
+Integral of p1: 3x^5 + 3.75x^4 + 0.666667x^3 + 3x^2 + -14x + 
+Integral of p2: 14x + 
+
+Definite integral of p1 from 0 to 1: -3.58333
+Definite integral of p2 from 0 to 1: 14
+
+Test Case 67
+p1: -7x + 9
+p2: 1x + 7
+p1 + p2: -6x + 16
+p1 - p2: -8x + 2
+p1 * p2: -7x^2 + -40x + 63
+
+p1 evaluated at x = 2.5: -8.5
+p2 evaluated at x = 2.5: 9.5
+
+Derivative of p1: -7
+Derivative of p2: 1
+
+Integral of p1: -3.5x^2 + 9x + 
+Integral of p2: 0.5x^2 + 7x + 
+
+Definite integral of p1 from 0 to 1: 5.5
+Definite integral of p2 from 0 to 1: 7.5
+
+Test Case 68
+p1: -7x^5 + 11x^4 + 1x^3 + -13x^2 + -6x + -14
+p2: 11x^10 + 7x^9 + 5x^8 + 5x^7 + -11x^6 + -9x^5 + 15x^4 + 14x^3 + 7x^2 + 4x + 11
+p1 + p2: 11x^10 + 7x^9 + 5x^8 + 5x^7 + -11x^6 + -16x^5 + 26x^4 + 15x^3 + -6x^2 + -2x + -3
+p1 - p2: -11x^10 + -7x^9 + -5x^8 + -5x^7 + 11x^6 + 2x^5 + -4x^4 + -13x^3 + -20x^2 + -10x + -25
+p1 * p2: -77x^15 + 72x^14 + 53x^13 + -116x^12 + -20x^11 + -314x^10 + -408x^9 + 101x^8 + 233x^7 + 76x^6 + -172x^5 + -260x^4 + -279x^3 + -265x^2 + -122x + -154
+
+p1 evaluated at x = 2.5: -348.531
+p2 evaluated at x = 2.5: 139593
+
+Derivative of p1: -35x^4 + 44x^3 + 3x^2 + -26x + -6
+Derivative of p2: 110x^9 + 63x^8 + 40x^7 + 35x^6 + -66x^5 + -45x^4 + 60x^3 + 42x^2 + 14x + 4
+
+Integral of p1: -1.16667x^6 + 2.2x^5 + 0.25x^4 + -4.33333x^3 + -3x^2 + -14x + 
+Integral of p2: 1x^11 + 0.7x^10 + 0.555556x^9 + 0.625x^8 + -1.57143x^7 + -1.5x^6 + 3x^5 + 3.5x^4 + 2.33333x^3 + 2x^2 + 11x + 
+
+Definite integral of p1 from 0 to 1: -20.05
+Definite integral of p2 from 0 to 1: 21.6425
+
+Test Case 69
+p1: -9x^6 + -1x^5 + 1x^4 + -9x^2 + -2x + 12
+p2: -5x^7 + -14x^6 + 10x^5 + 15x^4 + -13x^3 + 8x^2 + -9x + 8
+p1 + p2: -5x^7 + -23x^6 + 9x^5 + 16x^4 + -13x^3 + -1x^2 + -11x + 20
+p1 - p2: 5x^7 + 5x^6 + -11x^5 + -14x^4 + 13x^3 + -17x^2 + 7x + 4
+p1 * p2: 45x^13 + 131x^12 + -81x^11 + -159x^10 + 157x^9 + 92x^8 + -62x^7 + -378x^6 + 190x^5 + 142x^4 + -91x^3 + 42x^2 + -124x + 96
+
+p1 evaluated at x = 2.5: -2305.11
+p2 evaluated at x = 2.5: -5074.85
+
+Derivative of p1: -54x^5 + -5x^4 + 4x^3 + -18x + -2
+Derivative of p2: -35x^6 + -84x^5 + 50x^4 + 60x^3 + -39x^2 + 16x + -9
+
+Integral of p1: -1.28571x^7 + -0.166667x^6 + 0.2x^5 + -3x^3 + -1x^2 + 12x + 
+Integral of p2: -0.625x^8 + -2x^7 + 1.66667x^6 + 3x^5 + -3.25x^4 + 2.66667x^3 + -4.5x^2 + 8x + 
+
+Definite integral of p1 from 0 to 1: 6.74762
+Definite integral of p2 from 0 to 1: 4.95833
+
+Test Case 70
+p1: -11x^10 + -5x^9 + 11x^8 + 10x^7 + 6x^6 + 8x^5 + -9x^4 + -1x^2 + 7x + -5
+p2: -13x^9 + -3x^8 + 14x^7 + -12x^6 + -11x^5 + 2x^4 + 14x^3 + 2x^2 + 3x + -2
+p1 + p2: -11x^10 + -18x^9 + 8x^8 + 24x^7 + -6x^6 + -3x^5 + -7x^4 + 14x^3 + 1x^2 + 10x + -7
+p1 - p2: -11x^10 + 8x^9 + 14x^8 + -4x^7 + 18x^6 + 19x^5 + -11x^4 + -14x^3 + -3x^2 + 4x + -3
+p1 * p2: 143x^19 + 98x^18 + -282x^17 + -101x^16 + 227x^15 + -81x^14 + -228x^13 + -113x^12 + -144x^11 + 113x^10 + 292x^9 + 239x^8 + -255x^7 + -25x^6 + 12x^5 + 104x^4 + -59x^3 + 13x^2 + -29x + 10
+
+p1 evaluated at x = 2.5: -99188.7
+p2 evaluated at x = 2.5: -49312.8
+
+Derivative of p1: -110x^9 + -45x^8 + 88x^7 + 70x^6 + 36x^5 + 40x^4 + -36x^3 + -2x + 7
+Derivative of p2: -117x^8 + -24x^7 + 98x^6 + -72x^5 + -55x^4 + 8x^3 + 42x^2 + 4x + 3
+
+Integral of p1: -1x^11 + -0.5x^10 + 1.22222x^9 + 1.25x^8 + 0.857143x^7 + 1.33333x^6 + -1.8x^5 + -0.333333x^3 + 3.5x^2 + -5x + 
+Integral of p2: -1.3x^10 + -0.333333x^9 + 1.75x^8 + -1.71429x^7 + -1.83333x^6 + 0.4x^5 + 3.5x^4 + 0.666667x^3 + 1.5x^2 + -2x + 
+
+Definite integral of p1 from 0 to 1: -0.470635
+Definite integral of p2 from 0 to 1: 0.635714
+
+Test Case 71
+p1: 6x^11 + -9x^10 + -11x^9 + 8x^7 + 3x^6 + -3x^5 + -13x^4 + -8x^3 + 3x^2 + 8x + 8
+p2: 12x^11 + 6x^10 + -10x^9 + -14x^8 + -1x^7 + -5x^6 + -5x^5 + -8x^4 + -7x^3 + -5x^2 + -4x + 1
+p1 + p2: 18x^11 + -3x^10 + -21x^9 + -14x^8 + 7x^7 + -2x^6 + -8x^5 + -21x^4 + -15x^3 + -2x^2 + 4x + 9
+p1 - p2: -6x^11 + -15x^10 + -1x^9 + 14x^8 + 9x^7 + 8x^6 + 2x^5 + -5x^4 + -1x^3 + 8x^2 + 12x + 7
+p1 * p2: 72x^22 + -72x^21 + -246x^20 + -60x^19 + 326x^18 + 217x^17 + -72x^16 + -264x^15 + -109x^14 + 238x^13 + 422x^12 + 272x^11 + -31x^10 + -138x^9 + -17x^8 + 103x^7 + 32x^6 + -36x^5 + -116x^4 + -116x^3 + -69x^2 + -24x + 8
+
+p1 evaluated at x = 2.5: 19995
+p2 evaluated at x = 2.5: 281032
+
+Derivative of p1: 66x^10 + -90x^9 + -99x^8 + 56x^6 + 18x^5 + -15x^4 + -52x^3 + -24x^2 + 6x + 8
+Derivative of p2: 132x^10 + 60x^9 + -90x^8 + -112x^7 + -7x^6 + -30x^5 + -25x^4 + -32x^3 + -21x^2 + -10x + -4
+
+Integral of p1: 0.5x^12 + -0.818182x^11 + -1.1x^10 + 1x^8 + 0.428571x^7 + -0.5x^6 + -2.6x^5 + -2x^4 + 1x^3 + 4x^2 + 8x + 
+Integral of p2: 1x^12 + 0.545455x^11 + -1x^10 + -1.55556x^9 + -0.125x^8 + -0.714286x^7 + -0.833333x^6 + -1.6x^5 + -1.75x^4 + -1.66667x^3 + -2x^2 + 1x + 
+
+Definite integral of p1 from 0 to 1: 7.91039
+Definite integral of p2 from 0 to 1: -8.69939
+
+Test Case 72
+p1: 1x^8 + -3x^7 + -12x^6 + -4x^5 + 5x^4 + -14x^3 + 10x^2 + -9x + 4
+p2: 15
+p1 + p2: 1x^8 + -3x^7 + -12x^6 + -4x^5 + 5x^4 + -14x^3 + 10x^2 + -9x + 19
+p1 - p2: 1x^8 + -3x^7 + -12x^6 + -4x^5 + 5x^4 + -14x^3 + 10x^2 + -9x + -11
+p1 * p2: 15x^8 + -45x^7 + -180x^6 + -60x^5 + 75x^4 + -210x^3 + 150x^2 + -135x + 60
+
+p1 evaluated at x = 2.5: -3604.93
+p2 evaluated at x = 2.5: 15
+
+Derivative of p1: 8x^7 + -21x^6 + -72x^5 + -20x^4 + 20x^3 + -42x^2 + 20x + -9
+Derivative of p2: 
+
+Integral of p1: 0.111111x^9 + -0.375x^8 + -1.71429x^7 + -0.666667x^6 + 1x^5 + -3.5x^4 + 3.33333x^3 + -4.5x^2 + 4x + 
+Integral of p2: 15x + 
+
+Definite integral of p1 from 0 to 1: -2.31151
+Definite integral of p2 from 0 to 1: 15
+
+Test Case 73
+p1: 4x^11 + 15x^10 + 1x^9 + 4x^8 + -10x^7 + -3x^6 + 8x^5 + 14x^4 + 15x^3 + 14x + -7
+p2: -2x + 7
+p1 + p2: 4x^11 + 15x^10 + 1x^9 + 4x^8 + -10x^7 + -3x^6 + 8x^5 + 14x^4 + 15x^3 + 12x + 
+p1 - p2: 4x^11 + 15x^10 + 1x^9 + 4x^8 + -10x^7 + -3x^6 + 8x^5 + 14x^4 + 15x^3 + 16x + -14
+p1 * p2: -8x^12 + -2x^11 + 103x^10 + -1x^9 + 48x^8 + -64x^7 + -37x^6 + 28x^5 + 68x^4 + 105x^3 + -28x^2 + 112x + -49
+
+p1 evaluated at x = 2.5: 243091
+p2 evaluated at x = 2.5: 2
+
+Derivative of p1: 44x^10 + 150x^9 + 9x^8 + 32x^7 + -70x^6 + -18x^5 + 40x^4 + 56x^3 + 45x^2 + 14
+Derivative of p2: -2
+
+Integral of p1: 0.333333x^12 + 1.36364x^11 + 0.1x^10 + 0.444444x^9 + -1.25x^8 + -0.428571x^7 + 1.33333x^6 + 2.8x^5 + 3.75x^4 + 7x^2 + -7x + 
+Integral of p2: -1x^2 + 7x + 
+
+Definite integral of p1 from 0 to 1: 8.44618
+Definite integral of p2 from 0 to 1: 6
+
+Test Case 74
+p1: -3x^5 + -13x^4 + -9x^3 + 1x + -9
+p2: -1x^6 + 1x^5 + 12x^4 + -6x^3 + 2x^2 + 6x + 1
+p1 + p2: -1x^6 + -2x^5 + -1x^4 + -15x^3 + 2x^2 + 7x + -8
+p1 - p2: 1x^6 + -4x^5 + -25x^4 + -3x^3 + -2x^2 + -5x + -10
+p1 * p2: 3x^11 + 10x^10 + -40x^9 + -147x^8 + -37x^7 + 20x^6 + -96x^5 + -181x^4 + 47x^3 + -12x^2 + -53x + -9
+
+p1 evaluated at x = 2.5: -947.906
+p2 evaluated at x = 2.5: 257.016
+
+Derivative of p1: -15x^4 + -52x^3 + -27x^2 + 1
+Derivative of p2: -6x^5 + 5x^4 + 48x^3 + -18x^2 + 4x + 6
+
+Integral of p1: -0.5x^6 + -2.6x^5 + -2.25x^4 + 0.5x^2 + -9x + 
+Integral of p2: -0.142857x^7 + 0.166667x^6 + 2.4x^5 + -1.5x^4 + 0.666667x^3 + 3x^2 + 1x + 
+
+Definite integral of p1 from 0 to 1: -13.85
+Definite integral of p2 from 0 to 1: 5.59048
+
+Test Case 75
+p1: 9x^11 + -12x^9 + -5x^8 + -14x^7 + 10x^6 + -11x^4 + -11x^3 + -7x^2 + -3x + 1
+p2: -9
+p1 + p2: 9x^11 + -12x^9 + -5x^8 + -14x^7 + 10x^6 + -11x^4 + -11x^3 + -7x^2 + -3x + -8
+p1 - p2: 9x^11 + -12x^9 + -5x^8 + -14x^7 + 10x^6 + -11x^4 + -11x^3 + -7x^2 + -3x + 10
+p1 * p2: -81x^11 + 108x^9 + 45x^8 + 126x^7 + -90x^6 + 99x^4 + 99x^3 + 63x^2 + 27x + -9
+
+p1 evaluated at x = 2.5: 154416
+p2 evaluated at x = 2.5: -9
+
+Derivative of p1: 99x^10 + -108x^8 + -40x^7 + -98x^6 + 60x^5 + -44x^3 + -33x^2 + -14x + -3
+Derivative of p2: 
+
+Integral of p1: 0.75x^12 + -1.2x^10 + -0.555556x^9 + -1.75x^8 + 1.42857x^7 + -2.2x^5 + -2.75x^4 + -2.33333x^3 + -1.5x^2 + 1x + 
+Integral of p2: -9x + 
+
+Definite integral of p1 from 0 to 1: -9.11032
+Definite integral of p2 from 0 to 1: -9
+
+Test Case 76
+p1: -5x^5 + 6x^4 + 2x^3 + 8x^2 + -6x + -11
+p2: -5x^10 + 9x^9 + 14x^8 + 13x^7 + 5x^6 + -6x^5 + -14x^4 + -14x^3 + -9x^2 + -10x + -8
+p1 + p2: -5x^10 + 9x^9 + 14x^8 + 13x^7 + 5x^6 + -11x^5 + -8x^4 + -12x^3 + -1x^2 + -16x + -19
+p1 - p2: 5x^10 + -9x^9 + -14x^8 + -13x^7 + -5x^6 + 1x^5 + 20x^4 + 16x^3 + 17x^2 + 4x + -3
+p1 * p2: 25x^15 + -75x^14 + -26x^13 + -3x^12 + 183x^11 + 199x^10 + -35x^9 + -218x^8 + -288x^7 + -163x^6 + 98x^4 + 112x^3 + 95x^2 + 158x + 88
+
+p1 evaluated at x = 2.5: -198.656
+p2 evaluated at x = 2.5: 15725.3
+
+Derivative of p1: -25x^4 + 24x^3 + 6x^2 + 16x + -6
+Derivative of p2: -50x^9 + 81x^8 + 112x^7 + 91x^6 + 30x^5 + -30x^4 + -56x^3 + -42x^2 + -18x + -10
+
+Integral of p1: -0.833333x^6 + 1.2x^5 + 0.5x^4 + 2.66667x^3 + -3x^2 + -11x + 
+Integral of p2: -0.454545x^11 + 0.9x^10 + 1.55556x^9 + 1.625x^8 + 0.714286x^7 + -1x^6 + -2.8x^5 + -3.5x^4 + -3x^3 + -5x^2 + -8x + 
+
+Definite integral of p1 from 0 to 1: -10.4667
+Definite integral of p2 from 0 to 1: -18.9597
+
+Test Case 77
+p1: -14x^2 + 4x + 8
+p2: 5x^11 + -9x^10 + 6x^9 + -12x^7 + -2x^6 + 2x^5 + 6x^4 + 13x^3 + -13x^2 + -8x + 6
+p1 + p2: 5x^11 + -9x^10 + 6x^9 + -12x^7 + -2x^6 + 2x^5 + 6x^4 + 13x^3 + -27x^2 + -4x + 14
+p1 - p2: -5x^11 + 9x^10 + -6x^9 + 12x^7 + 2x^6 + -2x^5 + -6x^4 + -13x^3 + -1x^2 + 12x + 2
+p1 * p2: -70x^13 + 146x^12 + -80x^11 + -48x^10 + 216x^9 + -20x^8 + -132x^7 + -92x^6 + -142x^5 + 282x^4 + 164x^3 + -220x^2 + -40x + 48
+
+p1 evaluated at x = 2.5: -69.5
+p2 evaluated at x = 2.5: 48991.8
+
+Derivative of p1: -28x + 4
+Derivative of p2: 55x^10 + -90x^9 + 54x^8 + -84x^6 + -12x^5 + 10x^4 + 24x^3 + 39x^2 + -26x + -8
+
+Integral of p1: -4.66667x^3 + 2x^2 + 8x + 
+Integral of p2: 0.416667x^12 + -0.818182x^11 + 0.6x^10 + -1.5x^8 + -0.285714x^7 + 0.333333x^6 + 1.2x^5 + 3.25x^4 + -4.33333x^3 + -4x^2 + 6x + 
+
+Definite integral of p1 from 0 to 1: 5.33333
+Definite integral of p2 from 0 to 1: 0.862771
+
+Test Case 78
+p1: -13x^3 + -1x^2 + -1x + 13
+p2: -7x^3 + 6x^2 + -7x + -1
+p1 + p2: -20x^3 + 5x^2 + -8x + 12
+p1 - p2: -6x^3 + -7x^2 + 6x + 14
+p1 * p2: 91x^6 + -71x^5 + 92x^4 + -77x^3 + 86x^2 + -90x + -13
+
+p1 evaluated at x = 2.5: -198.875
+p2 evaluated at x = 2.5: -90.375
+
+Derivative of p1: -39x^2 + -2x + -1
+Derivative of p2: -21x^2 + 12x + -7
+
+Integral of p1: -3.25x^4 + -0.333333x^3 + -0.5x^2 + 13x + 
+Integral of p2: -1.75x^4 + 2x^3 + -3.5x^2 + -1x + 
+
+Definite integral of p1 from 0 to 1: 8.91667
+Definite integral of p2 from 0 to 1: -4.25
+
+Test Case 79
+p1: -7x^3 + 6x^2 + -7x + 10
+p2: -8x^10 + -11x^9 + 4x^8 + -2x^7 + 1x^6 + 15x^5 + -12x^4 + -6x^3 + 14x^2 + -1x + -12
+p1 + p2: -8x^10 + -11x^9 + 4x^8 + -2x^7 + 1x^6 + 15x^5 + -12x^4 + -13x^3 + 20x^2 + -8x + -2
+p1 - p2: 8x^10 + 11x^9 + -4x^8 + 2x^7 + -1x^6 + -15x^5 + 12x^4 + -1x^3 + -8x^2 + -6x + 22
+p1 * p2: 56x^13 + 29x^12 + -38x^11 + 35x^10 + -157x^9 + -45x^8 + 147x^7 + -125x^6 + 100x^5 + 13x^4 + -80x^3 + 75x^2 + 74x + -120
+
+p1 evaluated at x = 2.5: -79.375
+p2 evaluated at x = 2.5: -112153
+
+Derivative of p1: -21x^2 + 12x + -7
+Derivative of p2: -80x^9 + -99x^8 + 32x^7 + -14x^6 + 6x^5 + 75x^4 + -48x^3 + -18x^2 + 28x + -1
+
+Integral of p1: -1.75x^4 + 2x^3 + -3.5x^2 + 10x + 
+Integral of p2: -0.727273x^11 + -1.1x^10 + 0.444444x^9 + -0.25x^8 + 0.142857x^7 + 2.5x^6 + -2.4x^5 + -1.5x^4 + 4.66667x^3 + -0.5x^2 + -12x + 
+
+Definite integral of p1 from 0 to 1: 6.75
+Definite integral of p2 from 0 to 1: -10.7233
+
+Test Case 80
+p1: -2x^4 + -9x^3 + 10x + -14
+p2: 7x^11 + 14x^10 + -9x^9 + -10x^8 + 15x^7 + 10x^6 + 3x^5 + 9x^4 + -1x^3 + 1x^2 + 15x + 3
+p1 + p2: 7x^11 + 14x^10 + -9x^9 + -10x^8 + 15x^7 + 10x^6 + 3x^5 + 7x^4 + -10x^3 + 1x^2 + 25x + -11
+p1 - p2: -7x^11 + -14x^10 + 9x^9 + 10x^8 + -15x^7 + -10x^6 + -3x^5 + -11x^4 + -8x^3 + -1x^2 + -5x + -17
+p1 * p2: -14x^15 + -91x^14 + -108x^13 + 171x^12 + 102x^11 + -441x^10 + -70x^9 + 245x^8 + -189x^7 + -103x^6 + 9x^5 + -277x^4 + -3x^3 + 136x^2 + -180x + -42
+
+p1 evaluated at x = 2.5: -207.75
+p2 evaluated at x = 2.5: 263089
+
+Derivative of p1: -8x^3 + -27x^2 + 10
+Derivative of p2: 77x^10 + 140x^9 + -81x^8 + -80x^7 + 105x^6 + 60x^5 + 15x^4 + 36x^3 + -3x^2 + 2x + 15
+
+Integral of p1: -0.4x^5 + -2.25x^4 + 5x^2 + -14x + 
+Integral of p2: 0.583333x^12 + 1.27273x^11 + -0.9x^10 + -1.11111x^9 + 1.875x^8 + 1.42857x^7 + 0.5x^6 + 1.8x^5 + -0.25x^4 + 0.333333x^3 + 7.5x^2 + 3x + 
+
+Definite integral of p1 from 0 to 1: -11.65
+Definite integral of p2 from 0 to 1: 16.0319
+
+Test Case 81
+p1: 11
+p2: -14
+p1 + p2: -3
+p1 - p2: 25
+p1 * p2: -154
+
+p1 evaluated at x = 2.5: 11
+p2 evaluated at x = 2.5: -14
+
+Derivative of p1: 
+Derivative of p2: 
+
+Integral of p1: 11x + 
+Integral of p2: -14x + 
+
+Definite integral of p1 from 0 to 1: 11
+Definite integral of p2 from 0 to 1: -14
+
+Test Case 82
+p1: -1x^2 + 1x + 5
+p2: -1x^9 + -14x^8 + -6x^7 + 6x^6 + -2x^5 + 3x^3 + 7x^2 + -11x + -10
+p1 + p2: -1x^9 + -14x^8 + -6x^7 + 6x^6 + -2x^5 + 3x^3 + 6x^2 + -10x + -5
+p1 - p2: 1x^9 + 14x^8 + 6x^7 + -6x^6 + 2x^5 + -3x^3 + -8x^2 + 12x + 15
+p1 * p2: 1x^11 + 13x^10 + -13x^9 + -82x^8 + -22x^7 + 28x^6 + -13x^5 + -4x^4 + 33x^3 + 34x^2 + -65x + -50
+
+p1 evaluated at x = 2.5: 1.25
+p2 evaluated at x = 2.5: -27516.5
+
+Derivative of p1: -2x + 1
+Derivative of p2: -9x^8 + -112x^7 + -42x^6 + 36x^5 + -10x^4 + 9x^2 + 14x + -11
+
+Integral of p1: -0.333333x^3 + 0.5x^2 + 5x + 
+Integral of p2: -0.1x^10 + -1.55556x^9 + -0.75x^8 + 0.857143x^7 + -0.333333x^6 + 0.75x^4 + 2.33333x^3 + -5.5x^2 + -10x + 
+
+Definite integral of p1 from 0 to 1: 5.16667
+Definite integral of p2 from 0 to 1: -14.2984
+
+Test Case 83
+p1: 2x^6 + 6x^5 + -7x^4 + -9x^3 + -5x^2 + 7x + -12
+p2: 3x^10 + -1x^9 + 11x^8 + 2x^7 + 12x^6 + -11x^5 + -5x^4 + -7x^3 + -1x^2 + -14x + 5
+p1 + p2: 3x^10 + -1x^9 + 11x^8 + 2x^7 + 14x^6 + -5x^5 + -12x^4 + -16x^3 + -6x^2 + -7x + -7
+p1 - p2: -3x^10 + 1x^9 + -11x^8 + -2x^7 + -10x^6 + 17x^5 + -2x^4 + -2x^3 + -4x^2 + 21x + -17
+p1 * p2: 6x^16 + 16x^15 + -5x^14 + 50x^13 + -47x^12 + -37x^11 + -276x^10 + 4x^9 + -88x^8 + 175x^7 + -200x^6 + 269x^5 + 107x^4 + 102x^3 + -111x^2 + 203x + -60
+
+p1 evaluated at x = 2.5: 634.406
+p2 evaluated at x = 2.5: 44315.4
+
+Derivative of p1: 12x^5 + 30x^4 + -28x^3 + -27x^2 + -10x + 7
+Derivative of p2: 30x^9 + -9x^8 + 88x^7 + 14x^6 + 72x^5 + -55x^4 + -20x^3 + -21x^2 + -2x + -14
+
+Integral of p1: 0.285714x^7 + 1x^6 + -1.4x^5 + -2.25x^4 + -1.66667x^3 + 3.5x^2 + -12x + 
+Integral of p2: 0.272727x^11 + -0.1x^10 + 1.22222x^9 + 0.25x^8 + 1.71429x^7 + -1.83333x^6 + -1x^5 + -1.75x^4 + -0.333333x^3 + -7x^2 + 5x + 
+
+Definite integral of p1 from 0 to 1: -12.531
+Definite integral of p2 from 0 to 1: -3.55743
+
+Test Case 84
+p1: -8x^11 + 2x^10 + -9x^9 + -4x^8 + -11x^7 + -1x^6 + -11x^5 + 12x^4 + -10x^3 + -5x + -13
+p2: -3x^7 + 9x^5 + 10x^4 + -13x^3 + 13x^2 + -6x + 5
+p1 + p2: -8x^11 + 2x^10 + -9x^9 + -4x^8 + -14x^7 + -1x^6 + -2x^5 + 22x^4 + -23x^3 + 13x^2 + -11x + -8
+p1 - p2: -8x^11 + 2x^10 + -9x^9 + -4x^8 + -8x^7 + -1x^6 + -20x^5 + 2x^4 + 3x^3 + -13x^2 + 1x + -18
+p1 * p2: 24x^18 + -6x^17 + -45x^16 + -50x^15 + 76x^14 + -253x^13 + 85x^12 + -272x^11 + 76x^10 + -153x^9 + 221x^8 + -409x^7 + 302x^6 + -424x^5 + 55x^4 + 54x^3 + -139x^2 + 53x + -65
+
+p1 evaluated at x = 2.5: -219842
+p2 evaluated at x = 2.5: -693.398
+
+Derivative of p1: -88x^10 + 20x^9 + -81x^8 + -32x^7 + -77x^6 + -6x^5 + -55x^4 + 48x^3 + -30x^2 + -5
+Derivative of p2: -21x^6 + 45x^4 + 40x^3 + -39x^2 + 26x + -6
+
+Integral of p1: -0.666667x^12 + 0.181818x^11 + -0.9x^10 + -0.444444x^9 + -1.375x^8 + -0.142857x^7 + -1.83333x^6 + 2.4x^5 + -2.5x^4 + -2.5x^2 + -13x + 
+Integral of p2: -0.375x^8 + 1.5x^6 + 2x^5 + -3.25x^4 + 4.33333x^3 + -3x^2 + 5x + 
+
+Definite integral of p1 from 0 to 1: -20.7805
+Definite integral of p2 from 0 to 1: 6.20833
+
+Test Case 85
+p1: 14x^6 + -2x^5 + 7x^4 + -9x^3 + 10x^2 + 3x + -9
+p2: -7x^9 + 1x^8 + -13x^7 + -10x^6 + 5x^5 + -6x^4 + -12x^3 + -14x^2 + 15x + 8
+p1 + p2: -7x^9 + 1x^8 + -13x^7 + 4x^6 + 3x^5 + 1x^4 + -21x^3 + -4x^2 + 18x + -1
+p1 - p2: 7x^9 + -1x^8 + 13x^7 + 24x^6 + -7x^5 + 13x^4 + 3x^3 + 24x^2 + -12x + -17
+p1 * p2: -98x^15 + 28x^14 + -233x^13 + -44x^12 + -80x^11 + -58x^10 + -95x^9 + -407x^8 + 345x^7 + 137x^6 + 32x^5 + -201x^4 + 144x^3 + 251x^2 + -111x + -72
+
+p1 evaluated at x = 2.5: 3416.47
+p2 evaluated at x = 2.5: -35528.6
+
+Derivative of p1: 84x^5 + -10x^4 + 28x^3 + -27x^2 + 20x + 3
+Derivative of p2: -63x^8 + 8x^7 + -91x^6 + -60x^5 + 25x^4 + -24x^3 + -36x^2 + -28x + 15
+
+Integral of p1: 2x^7 + -0.333333x^6 + 1.4x^5 + -2.25x^4 + 3.33333x^3 + 1.5x^2 + -9x + 
+Integral of p2: -0.7x^10 + 0.111111x^9 + -1.625x^8 + -1.42857x^7 + 0.833333x^6 + -1.2x^5 + -3x^4 + -4.66667x^3 + 7.5x^2 + 8x + 
+
+Definite integral of p1 from 0 to 1: -3.35
+Definite integral of p2 from 0 to 1: 3.82421
+
+Test Case 86
+p1: 15
+p2: -8x + -12
+p1 + p2: -8x + 3
+p1 - p2: 8x + 27
+p1 * p2: -120x + -180
+
+p1 evaluated at x = 2.5: 15
+p2 evaluated at x = 2.5: -32
+
+Derivative of p1: 
+Derivative of p2: -8
+
+Integral of p1: 15x + 
+Integral of p2: -4x^2 + -12x + 
+
+Definite integral of p1 from 0 to 1: 15
+Definite integral of p2 from 0 to 1: -16
+
+Test Case 87
+p1: 1x^10 + -3x^9 + 15x^8 + 5x^7 + 8x^6 + 14x^5 + 12x^4 + -9x^3 + 15x^2 + 1x + -14
+p2: -8x^5 + 13x^4 + 4x^3 + 7x^2 + 14x + -5
+p1 + p2: 1x^10 + -3x^9 + 15x^8 + 5x^7 + 8x^6 + 6x^5 + 25x^4 + -5x^3 + 22x^2 + 15x + -19
+p1 - p2: 1x^10 + -3x^9 + 15x^8 + 5x^7 + 8x^6 + 22x^5 + -1x^4 + -13x^3 + 8x^2 + -13x + -9
+p1 * p2: -8x^15 + 37x^14 + -155x^13 + 150x^12 + 54x^11 + 70x^10 + 378x^9 + 335x^8 + -4x^7 + 391x^6 + 220x^5 + -259x^4 + 206x^3 + -159x^2 + -201x + 70
+
+p1 evaluated at x = 2.5: 27763.3
+p2 evaluated at x = 2.5: -137.188
+
+Derivative of p1: 10x^9 + -27x^8 + 120x^7 + 35x^6 + 48x^5 + 70x^4 + 48x^3 + -27x^2 + 30x + 1
+Derivative of p2: -40x^4 + 52x^3 + 12x^2 + 14x + 14
+
+Integral of p1: 0.0909091x^11 + -0.3x^10 + 1.66667x^9 + 0.625x^8 + 1.14286x^7 + 2.33333x^6 + 2.4x^5 + -2.25x^4 + 5x^3 + 0.5x^2 + -14x + 
+Integral of p2: -1.33333x^6 + 2.6x^5 + 1x^4 + 2.33333x^3 + 7x^2 + -5x + 
+
+Definite integral of p1 from 0 to 1: -2.79123
+Definite integral of p2 from 0 to 1: 6.6
+
+Test Case 88
+p1: 3x^5 + 13x^3 + 4x^2 + 8x + 10
+p2: 15x^9 + -2x^8 + -13x^7 + 13x^6 + 15x^5 + 11x^4 + 11x^3 + -9x^2 + 11x + 12
+p1 + p2: 15x^9 + -2x^8 + -13x^7 + 13x^6 + 18x^5 + 11x^4 + 24x^3 + -5x^2 + 19x + 22
+p1 - p2: -15x^9 + 2x^8 + 13x^7 + -13x^6 + -12x^5 + -11x^4 + 2x^3 + 13x^2 + -3x + -2
+p1 * p2: 45x^14 + -6x^13 + 156x^12 + 73x^11 + -12x^10 + 284x^9 + 156x^8 + 150x^7 + 470x^6 + 201x^5 + 305x^4 + 238x^3 + 46x^2 + 206x + 120
+
+p1 evaluated at x = 2.5: 551.094
+p2 evaluated at x = 2.5: 51457.6
+
+Derivative of p1: 15x^4 + 39x^2 + 8x + 8
+Derivative of p2: 135x^8 + -16x^7 + -91x^6 + 78x^5 + 75x^4 + 44x^3 + 33x^2 + -18x + 11
+
+Integral of p1: 0.5x^6 + 3.25x^4 + 1.33333x^3 + 4x^2 + 10x + 
+Integral of p2: 1.5x^10 + -0.222222x^9 + -1.625x^8 + 1.85714x^7 + 2.5x^6 + 2.2x^5 + 2.75x^4 + -3x^3 + 5.5x^2 + 12x + 
+
+Definite integral of p1 from 0 to 1: 19.0833
+Definite integral of p2 from 0 to 1: 23.4599
+
+Test Case 89
+p1: 5x^8 + 9x^7 + 15x^6 + -12x^5 + -12x^4 + 8x^3 + 2x^2 + -1x + -14
+p2: 13x^5 + 9x^4 + -1x^3 + -14x^2 + -4x + -9
+p1 + p2: 5x^8 + 9x^7 + 15x^6 + 1x^5 + -3x^4 + 7x^3 + -12x^2 + -5x + -23
+p1 - p2: 5x^8 + 9x^7 + 15x^6 + -25x^5 + -21x^4 + 9x^3 + 16x^2 + 3x + -5
+p1 * p2: 65x^13 + 162x^12 + 271x^11 + -100x^10 + -425x^9 + -283x^8 + 137x^7 + 78x^6 + -149x^5 + -77x^4 + -52x^3 + 182x^2 + 65x + 126
+
+p1 evaluated at x = 2.5: 15265
+p2 evaluated at x = 2.5: 1498.97
+
+Derivative of p1: 40x^7 + 63x^6 + 90x^5 + -60x^4 + -48x^3 + 24x^2 + 4x + -1
+Derivative of p2: 65x^4 + 36x^3 + -3x^2 + -28x + -4
+
+Integral of p1: 0.555556x^9 + 1.125x^8 + 2.14286x^7 + -2x^6 + -2.4x^5 + 2x^4 + 0.666667x^3 + -0.5x^2 + -14x + 
+Integral of p2: 2.16667x^6 + 1.8x^5 + -0.25x^4 + -4.66667x^3 + -2x^2 + -9x + 
+
+Definite integral of p1 from 0 to 1: -12.4099
+Definite integral of p2 from 0 to 1: -11.95
+
+Test Case 90
+p1: -9x^6 + 5x^5 + -10x^4 + -9x^3 + 11x^2 + -4x + -3
+p2: -5x^2 + -6x + -13
+p1 + p2: -9x^6 + 5x^5 + -10x^4 + -9x^3 + 6x^2 + -10x + -16
+p1 - p2: -9x^6 + 5x^5 + -10x^4 + -9x^3 + 16x^2 + 2x + 10
+p1 * p2: 45x^8 + 29x^7 + 137x^6 + 40x^5 + 129x^4 + 71x^3 + -104x^2 + 70x + 39
+
+p1 evaluated at x = 2.5: -2184.48
+p2 evaluated at x = 2.5: -59.25
+
+Derivative of p1: -54x^5 + 25x^4 + -40x^3 + -27x^2 + 22x + -4
+Derivative of p2: -10x + -6
+
+Integral of p1: -1.28571x^7 + 0.833333x^6 + -2x^5 + -2.25x^4 + 3.66667x^3 + -2x^2 + -3x + 
+Integral of p2: -1.66667x^3 + -3x^2 + -13x + 
+
+Definite integral of p1 from 0 to 1: -6.03571
+Definite integral of p2 from 0 to 1: -17.6667
+
+Test Case 91
+p1: -6x + -14
+p2: -3x^8 + 15x^7 + 6x^6 + 6x^5 + -13x^4 + 7x^3 + 11x^2 + 1x + 5
+p1 + p2: -3x^8 + 15x^7 + 6x^6 + 6x^5 + -13x^4 + 7x^3 + 11x^2 + -5x + -9
+p1 - p2: 3x^8 + -15x^7 + -6x^6 + -6x^5 + 13x^4 + -7x^3 + -11x^2 + -7x + -19
+p1 * p2: 18x^9 + -48x^8 + -246x^7 + -120x^6 + -6x^5 + 140x^4 + -164x^3 + -160x^2 + -44x + -70
+
+p1 evaluated at x = 2.5: -29
+p2 evaluated at x = 2.5: 6306.23
+
+Derivative of p1: -6
+Derivative of p2: -24x^7 + 105x^6 + 36x^5 + 30x^4 + -52x^3 + 21x^2 + 22x + 1
+
+Integral of p1: -3x^2 + -14x + 
+Integral of p2: -0.333333x^9 + 1.875x^8 + 0.857143x^7 + 1x^6 + -2.6x^5 + 1.75x^4 + 3.66667x^3 + 0.5x^2 + 5x + 
+
+Definite integral of p1 from 0 to 1: -17
+Definite integral of p2 from 0 to 1: 11.7155
+
+Test Case 92
+p1: -14x^8 + 12x^7 + 6x^5 + -1x^4 + -8x^3 + 14x^2 + -5x + 11
+p2: 8x^7 + 14x^6 + -9x^5 + -6x^4 + 12x^3 + 2x^2 + 7x + -3
+p1 + p2: -14x^8 + 20x^7 + 14x^6 + -3x^5 + -7x^4 + 4x^3 + 16x^2 + 2x + 8
+p1 - p2: -14x^8 + 4x^7 + -14x^6 + 15x^5 + 5x^4 + -20x^3 + 12x^2 + -12x + 14
+p1 * p2: -112x^15 + -100x^14 + 294x^13 + 24x^12 + -164x^11 + -16x^10 + -101x^9 + 432x^8 + -96x^7 + 59x^6 + 58x^5 + -151x^4 + 244x^3 + -55x^2 + 92x + -33
+
+p1 evaluated at x = 2.5: -13530.2
+p2 evaluated at x = 2.5: 7402
+
+Derivative of p1: -112x^7 + 84x^6 + 30x^4 + -4x^3 + -24x^2 + 28x + -5
+Derivative of p2: 56x^6 + 84x^5 + -45x^4 + -24x^3 + 36x^2 + 4x + 7
+
+Integral of p1: -1.55556x^9 + 1.5x^8 + 1x^6 + -0.2x^5 + -2x^4 + 4.66667x^3 + -2.5x^2 + 11x + 
+Integral of p2: 1x^8 + 2x^7 + -1.5x^6 + -1.2x^5 + 3x^4 + 0.666667x^3 + 3.5x^2 + -3x + 
+
+Definite integral of p1 from 0 to 1: 11.9111
+Definite integral of p2 from 0 to 1: 4.46667
+
+Test Case 93
+p1: -14x^7 + -5x^6 + 2x^5 + -11x^4 + 11x^3 + 13x^2 + -12x + 3
+p2: 11x^3 + -6x^2 + 9x + -6
+p1 + p2: -14x^7 + -5x^6 + 2x^5 + -11x^4 + 22x^3 + 7x^2 + -3x + -3
+p1 - p2: -14x^7 + -5x^6 + 2x^5 + -11x^4 + 19x^2 + -21x + 9
+p1 * p2: -154x^10 + 29x^9 + -74x^8 + -94x^7 + 235x^6 + -34x^5 + -45x^4 + 156x^3 + -204x^2 + 99x + -18
+
+p1 evaluated at x = 2.5: -9773.88
+p2 evaluated at x = 2.5: 150.875
+
+Derivative of p1: -98x^6 + -30x^5 + 10x^4 + -44x^3 + 33x^2 + 26x + -12
+Derivative of p2: 33x^2 + -12x + 9
+
+Integral of p1: -1.75x^8 + -0.714286x^7 + 0.333333x^6 + -2.2x^5 + 2.75x^4 + 4.33333x^3 + -6x^2 + 3x + 
+Integral of p2: 2.75x^4 + -2x^3 + 4.5x^2 + -6x + 
+
+Definite integral of p1 from 0 to 1: -0.247619
+Definite integral of p2 from 0 to 1: -0.75
+
+Test Case 94
+p1: -2x^4 + -8x^3 + -10x^2 + 2x + -8
+p2: -3x^2 + -11x + -8
+p1 + p2: -2x^4 + -8x^3 + -13x^2 + -9x + -16
+p1 - p2: -2x^4 + -8x^3 + -7x^2 + 13x + 
+p1 * p2: 6x^6 + 46x^5 + 134x^4 + 168x^3 + 82x^2 + 72x + 64
+
+p1 evaluated at x = 2.5: -268.625
+p2 evaluated at x = 2.5: -54.25
+
+Derivative of p1: -8x^3 + -24x^2 + -20x + 2
+Derivative of p2: -6x + -11
+
+Integral of p1: -0.4x^5 + -2x^4 + -3.33333x^3 + 1x^2 + -8x + 
+Integral of p2: -1x^3 + -5.5x^2 + -8x + 
+
+Definite integral of p1 from 0 to 1: -12.7333
+Definite integral of p2 from 0 to 1: -14.5
+
+Test Case 95
+p1: -10x^10 + -14x^9 + 14x^8 + -12x^7 + -9x^6 + -9x^5 + 7x^4 + -9x^3 + 7x^2 + 1x + 1
+p2: -5x^4 + -2x^3 + 12x^2 + -3x + 1
+p1 + p2: -10x^10 + -14x^9 + 14x^8 + -12x^7 + -9x^6 + -9x^5 + 2x^4 + -11x^3 + 19x^2 + -2x + 2
+p1 - p2: -10x^10 + -14x^9 + 14x^8 + -12x^7 + -9x^6 + -9x^5 + 12x^4 + -7x^3 + -5x^2 + 4x + 
+p1 * p2: 50x^14 + 90x^13 + -162x^12 + -106x^11 + 269x^10 + -137x^9 + -75x^8 + -62x^7 + 85x^6 + -157x^5 + 111x^4 + -20x^3 + 16x^2 + -2x + 1
+
+p1 evaluated at x = 2.5: -137631
+p2 evaluated at x = 2.5: -158.062
+
+Derivative of p1: -100x^9 + -126x^8 + 112x^7 + -84x^6 + -54x^5 + -45x^4 + 28x^3 + -27x^2 + 14x + 1
+Derivative of p2: -20x^3 + -6x^2 + 24x + -3
+
+Integral of p1: -0.909091x^11 + -1.4x^10 + 1.55556x^9 + -1.5x^8 + -1.28571x^7 + -1.5x^6 + 1.4x^5 + -2.25x^4 + 2.33333x^3 + 0.5x^2 + 1x + 
+Integral of p2: -1x^5 + -0.5x^4 + 4x^3 + -1.5x^2 + 1x + 
+
+Definite integral of p1 from 0 to 1: -2.05592
+Definite integral of p2 from 0 to 1: 2
+
+Test Case 96
+p1: 12x^7 + -5x^6 + -6x^5 + 10x^4 + -13x^3 + -5x^2 + 3x + -13
+p2: 12x^10 + -9x^9 + 1x^8 + 11x^7 + 10x^6 + 2x^5 + 14x^4 + -12x^2 + 8x + -4
+p1 + p2: 12x^10 + -9x^9 + 1x^8 + 23x^7 + 5x^6 + -4x^5 + 24x^4 + -13x^3 + -17x^2 + 11x + -17
+p1 - p2: -12x^10 + 9x^9 + -1x^8 + 1x^7 + -15x^6 + -8x^5 + -4x^4 + -13x^3 + 7x^2 + -5x + -9
+p1 * p2: 144x^17 + -168x^16 + -15x^15 + 301x^14 + -187x^13 + -25x^12 + 276x^11 + -313x^10 + -273x^9 + 240x^8 + -321x^7 + -342x^6 + 276x^5 + -266x^4 + -24x^3 + 200x^2 + -116x + 52
+
+p1 evaluated at x = 2.5: 5668.33
+p2 evaluated at x = 2.5: 91473
+
+Derivative of p1: 84x^6 + -30x^5 + -30x^4 + 40x^3 + -39x^2 + -10x + 3
+Derivative of p2: 120x^9 + -81x^8 + 8x^7 + 77x^6 + 60x^5 + 10x^4 + 56x^3 + -24x + 8
+
+Integral of p1: 1.5x^8 + -0.714286x^7 + -1x^6 + 2x^5 + -3.25x^4 + -1.66667x^3 + 1.5x^2 + -13x + 
+Integral of p2: 1.09091x^11 + -0.9x^10 + 0.111111x^9 + 1.375x^8 + 1.42857x^7 + 0.333333x^6 + 2.8x^5 + -4x^3 + 4x^2 + -4x + 
+
+Definite integral of p1 from 0 to 1: -14.631
+Definite integral of p2 from 0 to 1: 2.23892
+
+Test Case 97
+p1: 2x^6 + 10x^5 + -7x^4 + 5x^3 + -6x^2 + 13x + -4
+p2: 12x^7 + -14x^6 + -10x^5 + -13x^4 + 14x^3 + 9x^2 + 2x + 5
+p1 + p2: 12x^7 + -12x^6 + -20x^4 + 19x^3 + 3x^2 + 15x + 1
+p1 - p2: -12x^7 + 16x^6 + 20x^5 + 6x^4 + -9x^3 + -15x^2 + 11x + -9
+p1 * p2: 24x^13 + 92x^12 + -244x^11 + 32x^10 + -174x^9 + 439x^8 + -239x^7 + 41x^6 + -132x^5 + 155x^4 + 74x^3 + -40x^2 + 57x + -20
+
+p1 evaluated at x = 2.5: 1260.53
+p2 evaluated at x = 2.5: 2706.88
+
+Derivative of p1: 12x^5 + 50x^4 + -28x^3 + 15x^2 + -12x + 13
+Derivative of p2: 84x^6 + -84x^5 + -50x^4 + -52x^3 + 42x^2 + 18x + 2
+
+Integral of p1: 0.285714x^7 + 1.66667x^6 + -1.4x^5 + 1.25x^4 + -2x^3 + 6.5x^2 + -4x + 
+Integral of p2: 1.5x^8 + -2x^7 + -1.66667x^6 + -2.6x^5 + 3.5x^4 + 3x^3 + 1x^2 + 5x + 
+
+Definite integral of p1 from 0 to 1: 2.30238
+Definite integral of p2 from 0 to 1: 7.73333
+
+Test Case 98
+p1: 5x^9 + 5x^8 + 1x^7 + -1x^6 + 14x^5 + 3x^4 + 4x^3 + 15x^2 + 10x + -11
+p2: -12x^2 + -10x + 15
+p1 + p2: 5x^9 + 5x^8 + 1x^7 + -1x^6 + 14x^5 + 3x^4 + 4x^3 + 3x^2 + 4
+p1 - p2: 5x^9 + 5x^8 + 1x^7 + -1x^6 + 14x^5 + 3x^4 + 4x^3 + 27x^2 + 20x + -26
+p1 * p2: -60x^11 + -110x^10 + 13x^9 + 77x^8 + -143x^7 + -191x^6 + 132x^5 + -175x^4 + -210x^3 + 257x^2 + 260x + -165
+
+p1 evaluated at x = 2.5: 28723.7
+p2 evaluated at x = 2.5: -85
+
+Derivative of p1: 45x^8 + 40x^7 + 7x^6 + -6x^5 + 70x^4 + 12x^3 + 12x^2 + 30x + 10
+Derivative of p2: -24x + -10
+
+Integral of p1: 0.5x^10 + 0.555556x^9 + 0.125x^8 + -0.142857x^7 + 2.33333x^6 + 0.6x^5 + 1x^4 + 5x^3 + 5x^2 + -11x + 
+Integral of p2: -4x^3 + -5x^2 + 15x + 
+
+Definite integral of p1 from 0 to 1: 3.97103
+Definite integral of p2 from 0 to 1: 6
+
+Test Case 99
+p1: 14x^8 + 1x^7 + 13x^6 + -4x^5 + -12x^4 + 2x^3 + 14x^2 + -9x + 5
+p2: -1x^5 + 14x^4 + -11x^3 + -9x^2 + -14x + 
+p1 + p2: 14x^8 + 1x^7 + 13x^6 + -5x^5 + 2x^4 + -9x^3 + 5x^2 + -23x + 5
+p1 - p2: 14x^8 + 1x^7 + 13x^6 + -3x^5 + -26x^4 + 13x^3 + 23x^2 + 5x + 5
+p1 * p2: -14x^13 + 195x^12 + -153x^11 + 49x^10 + -392x^9 + -257x^8 + 347x^6 + -135x^5 + 15x^4 + -170x^3 + 81x^2 + -70x + 
+
+p1 evaluated at x = 2.5: 24388.4
+p2 evaluated at x = 2.5: 186.094
+
+Derivative of p1: 112x^7 + 7x^6 + 78x^5 + -20x^4 + -48x^3 + 6x^2 + 28x + -9
+Derivative of p2: -5x^4 + 56x^3 + -33x^2 + -18x + -14
+
+Integral of p1: 1.55556x^9 + 0.125x^8 + 1.85714x^7 + -0.666667x^6 + -2.4x^5 + 0.5x^4 + 4.66667x^3 + -4.5x^2 + 5x + 
+Integral of p2: -0.166667x^6 + 2.8x^5 + -2.75x^4 + -3x^3 + -7x^2 + 
+
+Definite integral of p1 from 0 to 1: 6.1377
+Definite integral of p2 from 0 to 1: -10.1167
+
+Test Case 100
+p1: -8x^4 + -8x^3 + -4x^2 + 6x + 12
+p2: -2x^5 + -2x^4 + 4x^3 + 10x + 3
+p1 + p2: -2x^5 + -10x^4 + -4x^3 + -4x^2 + 16x + 15
+p1 - p2: 2x^5 + -6x^4 + -12x^3 + -4x^2 + -4x + 9
+p1 * p2: 16x^9 + 32x^8 + -8x^7 + -36x^6 + -132x^5 + -104x^4 + -16x^3 + 48x^2 + 138x + 36
+
+p1 evaluated at x = 2.5: -435.5
+p2 evaluated at x = 2.5: -182.938
+
+Derivative of p1: -32x^3 + -24x^2 + -8x + 6
+Derivative of p2: -10x^4 + -8x^3 + 12x^2 + 10
+
+Integral of p1: -1.6x^5 + -2x^4 + -1.33333x^3 + 3x^2 + 12x + 
+Integral of p2: -0.333333x^6 + -0.4x^5 + 1x^4 + 5x^2 + 3x + 
+
+Definite integral of p1 from 0 to 1: 10.0667
+Definite integral of p2 from 0 to 1: 8.26667
+

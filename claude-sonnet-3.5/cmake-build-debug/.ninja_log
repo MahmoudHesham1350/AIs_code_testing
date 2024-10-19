@@ -1,0 +1,18 @@
+# ninja log v5
+35	5700	7509792137537530	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	81ef8002566187c8
+1013	3583	7509775369540890	task2.exe	2126367c447736ed
+48	821	7509792088887515	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	a5d541f8b1dd281d
+725	975	7510284628104607	Gemini.exe	6fa950319ec32057
+26	2310	7509809152638139	lib/libgtest.a	90a893309564d441
+13	83	7509811721544323	lib/libgtest_main.a	c115cb48697c4d90
+21	673	7510286680445392	CMakeFiles/claude-sonnet-3.5.dir/Polynomial.cpp.obj	c7567455259f708
+13	700	7510286680715408	CMakeFiles/claude-sonnet-3.5.dir/main.cpp.obj	e146ca00d756e2d4
+35	809	7510286681805399	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	ebc39123e35d8e84
+28	5974	7510286733325397	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	14732b4dcf508aef
+5974	8314	7510286756865392	lib/libgtest.a	90a893309564d441
+8314	8373	7510286757455403	lib/libgtest_main.a	c115cb48697c4d90
+8373	8467	7510286758375384	claude-sonnet-3.5.exe	24f83eba56329839
+13	629	7510343326878582	CMakeFiles/claude-sonnet-3.5.dir/main.cpp.obj	e146ca00d756e2d4
+629	726	7510343327829877	claude-sonnet-3.5.exe	24f83eba56329839
+13	612	7510343754195735	CMakeFiles/claude-sonnet-3.5.dir/main.cpp.obj	e146ca00d756e2d4
+612	723	7510343755276074	claude-sonnet-3.5.exe	24f83eba56329839
